@@ -99,6 +99,8 @@ Schedule rationale: bumping equilibration by ×2.5 over the v1 baseline aims to 
 | T6 | τ_R ~ N^? | 2.18 | ±0.30 | 1.1633 | 0.9937 | 0.95 |
 | T7 | D ~ N^? | -1.00 | ±0.20 | -1.0283 | 0.9984 | 0.95 |
 
+![T1–T7 compliance heatmap across (φ, N)](05_data/rouse_compliance_heatmap.png)
+
 Comparison with v1 (dilute φ = 0.03): T7 D-exponent measured -1.0283 (v1: -1.246). T6 τ_R-exponent measured 1.16 in both runs despite the ×2.5 longer equilibration in v2. T4 g_CM long-time α measured 0.8494 in v2; refer to the v1 deliverable for its corresponding value.
 
 ### Cross-φ Findings
@@ -111,6 +113,10 @@ Comparison with v1 (dilute φ = 0.03): T7 D-exponent measured -1.0283 (v1: -1.24
 | 0.30 | 1.197 | 1.166 | 6.298 | -1.503 | 1.163 | 0.753 | 0.389 |
 
 Theoretical reference values (and tolerances) are listed in the T1–T7 table above for the dilute (φ = 0.03) limit. The τ_R exponent measures 1.163 across all four φ values.
+
+| Static 2ν vs φ | D-exponent vs φ | τ_R-exponent vs φ |
+|---|---|---|
+| ![2ν vs φ](01_static_properties/fig_2nu_vs_phi.png) | ![D-exponent vs φ](02_dynamic_properties/fig_D_exponent_vs_phi.png) | ![τ_R-exponent vs φ](02_dynamic_properties/fig_tauR_exponent_vs_phi.png) |
 
 ---
 
@@ -183,6 +189,14 @@ JSON with `per_phi.<phi>.{R2_exponent, Rg2_exponent, R2_Rg2_ratio, D_exponent, t
 | `fig_ratio_R2_Rg2_vs_phi.png` | R²/R_g² vs φ for each N | `fig1_static.tsv` chain-averaged |
 | `fig_R2_Rg2_combined_dilute.png` | R² and R_g² vs N at dilute (φ = 0.03) | `fig1_static.tsv` for φ=0.03 |
 
+| ⟨R²⟩ vs N per φ | ⟨R_g²⟩ vs N per φ |
+|---|---|
+| ![R² vs N per φ](01_static_properties/fig_R2_vs_N_per_phi.png) | ![R_g² vs N per φ](01_static_properties/fig_Rg2_vs_N_per_phi.png) |
+
+| R²/R_g² vs φ | R² and R_g² vs N (dilute) |
+|---|---|
+| ![R²/R_g² vs φ](01_static_properties/fig_ratio_R2_Rg2_vs_phi.png) | ![R² and R_g² vs N at φ=0.03](01_static_properties/fig_R2_Rg2_combined_dilute.png) |
+
 #### `02_dynamic_properties/` — Cross-φ dynamic plots
 
 | Plot file | What it shows | Data source |
@@ -195,6 +209,16 @@ JSON with `per_phi.<phi>.{R2_exponent, Rg2_exponent, R2_Rg2_ratio, D_exponent, t
 | `fig_tauR_exponent_vs_phi.png` | Fitted τ_R-exponent vs φ — derived analysis | per-φ summary JSON |
 | `fig_g1_shorttime_exponent_vs_phi.png` | Fitted g₁ short-time exponent vs φ — derived | per-φ summary JSON |
 
+| g₁(t) vs sweep per (φ, N) | g_CM vs sweep per (φ, N) |
+|---|---|
+| ![g₁ vs sweep per φ](02_dynamic_properties/fig_g1_vs_sweep_per_phi.png) | ![g_CM vs sweep per φ](02_dynamic_properties/fig_gcm_vs_sweep_per_phi.png) |
+
+| D vs N per φ | τ_R vs N per φ |
+|---|---|
+| ![D vs N per φ](02_dynamic_properties/fig_D_vs_N_per_phi.png) | ![τ_R vs N per φ](02_dynamic_properties/fig_tauR_vs_N_per_phi.png) |
+
+![g₁ short-time exponent vs φ](02_dynamic_properties/fig_g1_shorttime_exponent_vs_phi.png)
+
 #### `03_per_state_point/phi_<phi>/N<N>/` — Per-(φ, N) detail plots (5 per cell × 12 cells = 60)
 
 | Plot file | What it shows | Data source |
@@ -204,6 +228,16 @@ JSON with `per_phi.<phi>.{R2_exponent, Rg2_exponent, R2_Rg2_ratio, D_exponent, t
 | `g1_middle_segment_msd.png` | Middle-segment MSD vs sweep for this cell | `fig2_seg_msd.tsv` |
 | `gcm_center_of_mass_msd.png` | Center-of-mass MSD vs sweep for this cell | `fig3_cm_diffusion.tsv` |
 | `autocorrelation_end_to_end_vector.png` | g_R(t) decay for this cell | `fig4_autocorr.tsv` |
+
+Representative cell — dilute longest chain (φ = 0.03, N = 100):
+
+| R² vs sweep | R_g² vs sweep |
+|---|---|
+| ![R² vs sweep, φ=0.03 N=100](03_per_state_point/phi_0.03/N100/R2_vs_MC_sweep.png) | ![R_g² vs sweep, φ=0.03 N=100](03_per_state_point/phi_0.03/N100/Rg2_vs_MC_sweep.png) |
+
+| g₁ middle-segment MSD | g_CM MSD | End-to-end autocorrelation |
+|---|---|---|
+| ![g₁ MSD, φ=0.03 N=100](03_per_state_point/phi_0.03/N100/g1_middle_segment_msd.png) | ![g_CM MSD, φ=0.03 N=100](03_per_state_point/phi_0.03/N100/gcm_center_of_mass_msd.png) | ![End-to-end autocorr, φ=0.03 N=100](03_per_state_point/phi_0.03/N100/autocorrelation_end_to_end_vector.png) |
 
 #### `04_equilibration_evidence/phi_<phi>/` — Equilibration diagnostics (12 plots per φ × 4 φ = 48)
 
@@ -217,12 +251,24 @@ For each observable in {R², R_g², energy, acceptance}:
 
 The `energy` family is flat-zero (athermal model) and serves as a sanity check. The `acceptance` family carries the genuine equilibration signal. Both R² and R_g² families plot the underlying 100-chain mean from `static_vs_sweep.tsv`.
 
+Representative φ = 0.03 panels — R² and acceptance, the two genuine equilibration signals (energy is flat-zero):
+
+| R² vs sweep, all N | R² production autocorrelation | R² first-half vs second-half overlap |
+|---|---|---|
+| ![R² vs sweep, all N, φ=0.03](04_equilibration_evidence/phi_0.03/fig_R2_vs_sweep_all_N.png) | ![R² autocorr, all N, φ=0.03](04_equilibration_evidence/phi_0.03/fig_R2_autocorr_all_N.png) | ![R² dist overlap, all N, φ=0.03](04_equilibration_evidence/phi_0.03/fig_R2_dist_overlap_all_N.png) |
+
+| Acceptance vs sweep, all N | Acceptance autocorrelation | Acceptance dist overlap |
+|---|---|---|
+| ![Acceptance vs sweep, all N, φ=0.03](04_equilibration_evidence/phi_0.03/fig_acceptance_vs_sweep_all_N.png) | ![Acceptance autocorr, all N, φ=0.03](04_equilibration_evidence/phi_0.03/fig_acceptance_autocorr_all_N.png) | ![Acceptance dist overlap, all N, φ=0.03](04_equilibration_evidence/phi_0.03/fig_acceptance_dist_overlap_all_N.png) |
+
 #### `05_data/` (top-level)
 
 | File | What it contains |
 |------|------------------|
 | `tavg_validation_summary.json` | Per-φ scaling exponents and the analysis script's tolerance-comparison flags |
 | `rouse_compliance_heatmap.png` | (φ × N) grid colored by gate compliance |
+
+![Compliance heatmap](05_data/rouse_compliance_heatmap.png)
 
 #### `07_trajectories/phi_<phi>/N<N>/`
 
