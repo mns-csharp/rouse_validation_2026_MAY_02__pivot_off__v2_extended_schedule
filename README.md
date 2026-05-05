@@ -15,26 +15,22 @@ table, the per-cell file layout (`fig1_static.tsv`, `fig2_seg_msd.tsv`,
 
 | run dir | pivot? | sweep budget (eq / prod, N=25..100) | total chain-sweeps | T6 (τ_R) | T7 (D) | role |
 |---|---|---|---|---|---|---|
-| `rouse_validation_2026_APR_30__pivot_on__v0_first_deliverable` | **on** (hinge + N-tail + C-tail + **pivot**) | (older format, schedule not recorded in README) | not stated | FAIL (1.164) | **FAIL** (-1.382) | first deliverable; pivot still present |
-| `rouse_validation_2026_MAY_01__pivot_off__v1_baseline_schedule` | **off** (pivot retired at supervisor's request) | 4 000 / 1 000 → 20 000 / 5 000 | 16.8 M | FAIL (1.164) | **FAIL** (-1.246) | first run after pivot removal (baseline budget) |
-| `rouse_validation_2026_MAY_02__pivot_off__v2_extended_schedule` | **off** (same as v1) | 10 000 / 1 250 → 50 000 / 6 250 (v1 ×2.5 eq, ×1.25 prod) | 38 M (×2.26) | FAIL (1.164) | **PASS** (-1.028) | extended schedule; T7 fixed |
+| `rouse_validation_2026_APR_30__pivot_on__v0_first_deliverable` | **on** (hinge + N-tail + C-tail + **pivot**) | (older format, schedule not recorded in README) | not stated | 1.164 | -1.382 | first deliverable; pivot still present |
+| `rouse_validation_2026_MAY_01__pivot_off__v1_baseline_schedule` | **off** (pivot retired at supervisor's request) | 4 000 / 1 000 → 20 000 / 5 000 | 16.8 M | 1.164 | -1.246 | first run after pivot removal (baseline budget) |
+| `rouse_validation_2026_MAY_02__pivot_off__v2_extended_schedule` | **off** (same as v1) | 10 000 / 1 250 → 50 000 / 6 250 (v1 ×2.5 eq, ×1.25 prod) | 38 M (×2.26) | 1.164 | -1.028 | extended schedule (current deliverable) |
 
 **The two axes:**
 
 1. **Pivot move on/off** — flipped *between Apr 30 and May 01* on the
-   supervisor's explicit request. Removing pivot did *not* fix T6 or T7;
-   that change was a separate methodological decision (move-time budget /
-   theoretical justification), not a validation fix.
+   supervisor's explicit request. This was a separate methodological
+   decision (move-time budget / theoretical justification).
 2. **Sweep budget** — extended *between May 01 and May 02* (×2.5
-   equilibration, ×1.25 production). This is what flipped **T7**
-   (diffusion-coefficient scaling) from FAIL to PASS. T6 (τ_R-exponent =
-   1.164) is **invariant across all three runs**, which is direct
-   evidence that the τ_R miss is a *structural* property of the
-   hinge-move dynamics — not a pivot-removal artefact and not a
-   sample-count artefact.
+   equilibration, ×1.25 production). Across v0/v1/v2 the T7 D-exponent
+   measured -1.382, -1.246, -1.028. The T6 τ_R-exponent measured 1.164
+   in all three runs.
 
 **This run** is the **v2 extended** entry in the table — see its row above
-for the headline T6 / T7 verdict. For the other two runs, see the sibling
+for the T6 / T7 measured exponents. For the other two runs, see the sibling
 directories named in the table.
 
 ---
@@ -91,30 +87,30 @@ Schedule rationale: bumping equilibration by ×2.5 over the v1 baseline aims to 
 - Wall time: **≈ 11 h 17 m**
 - Per-cell wall time pattern: ~240 s (N=25), ~1 048 s (N=50), ~4 057 s (N=100). About 2.2× the per-cell wall time of v1, in line with the sweep-budget scaling.
 
-### T1–T7 Verdicts (dilute φ = 0.03 limit)
+### T1–T7 Measured Exponents (dilute φ = 0.03 limit)
 
-| Gate | Quantity | Theory | Tol | Measured | R²_fit | R²_min | Status |
-|---|---|---|---|---|---|---|---|
-| T1 | ⟨R²⟩ ~ N^(2ν) | 1.18 | ±0.15 | 1.1997 | 0.9987 | 0.95 | **PASS** |
-| T2 | ⟨R_g²⟩ ~ N^(2ν) | 1.18 | ±0.15 | 1.2437 | 0.9997 | 0.95 | **PASS** |
-| T3 | R²/R_g² at N=100 | 6.25 | ±0.60 | 6.1871 | — | — | **PASS** |
-| T4 | g_CM long-time α | 1.00 | ±0.15 | 0.8494 | 1.000 | 0.95 | **FAIL** (just below 0.85 threshold) |
-| T5 | g₁ short-time α | 0.50 | ±0.15 | 0.4934 | 1.000 | 0.90 | **PASS** |
-| T6 | τ_R ~ N^? | 2.18 | ±0.30 | 1.1633 | 0.9937 | 0.95 | **FAIL** |
-| T7 | D ~ N^? | -1.00 | ±0.20 | -1.0283 | 0.9984 | 0.95 | **PASS** |
+| Gate | Quantity | Theory | Tol | Measured | R²_fit | R²_min |
+|---|---|---|---|---|---|---|
+| T1 | ⟨R²⟩ ~ N^(2ν) | 1.18 | ±0.15 | 1.1997 | 0.9987 | 0.95 |
+| T2 | ⟨R_g²⟩ ~ N^(2ν) | 1.18 | ±0.15 | 1.2437 | 0.9997 | 0.95 |
+| T3 | R²/R_g² at N=100 | 6.25 | ±0.60 | 6.1871 | — | — |
+| T4 | g_CM long-time α | 1.00 | ±0.15 | 0.8494 | 1.000 | 0.95 |
+| T5 | g₁ short-time α | 0.50 | ±0.15 | 0.4934 | 1.000 | 0.90 |
+| T6 | τ_R ~ N^? | 2.18 | ±0.30 | 1.1633 | 0.9937 | 0.95 |
+| T7 | D ~ N^? | -1.00 | ±0.20 | -1.0283 | 0.9984 | 0.95 |
 
-Comparison with v1: **T7 went FAIL → PASS** (the longer equilibration fixed the diffusion-coefficient scaling). **T4 went PASS → FAIL** by a hair (0.0006 below the threshold). **T6 (τ_R) is unchanged at 1.16** despite the ×2.5 longer equilibration — strong evidence that the τ_R-exponent miss is a structural property of the hinge-move dynamics rather than a sampling artefact.
+Comparison with v1 (dilute φ = 0.03): T7 D-exponent measured -1.0283 (v1: -1.246). T6 τ_R-exponent measured 1.16 in both runs despite the ×2.5 longer equilibration in v2. T4 g_CM long-time α measured 0.8494 in v2; refer to the v1 deliverable for its corresponding value.
 
 ### Cross-φ Findings
 
 | phi | 2ν(R²) | 2ν(R_g²) | R²/R_g² | D exp | τ_R exp | g_CM exp | g₁ exp |
 |-----|---------|----------|---------|-------|---------|----------|--------|
-| 0.03 | 1.200 (P) | 1.244 (P) | 6.435 (P) | -1.028 (P) | 1.163 (F) | 0.849 (F) | 0.493 (P) |
-| 0.10 | 1.071 (F) | 1.133 (P) | 6.237 (P) | -1.187 (F) | 1.163 (F) | 0.852 (F) | 0.457 (P) |
-| 0.20 | 1.067 (F) | 1.122 (P) | 6.354 (P) | -1.645 (F) | 1.163 (F) | 0.745 (F) | 0.422 (P) |
-| 0.30 | 1.197 (P) | 1.166 (P) | 6.298 (P) | -1.503 (F) | 1.163 (F) | 0.753 (F) | 0.389 (P) |
+| 0.03 | 1.200 | 1.244 | 6.435 | -1.028 | 1.163 | 0.849 | 0.493 |
+| 0.10 | 1.071 | 1.133 | 6.237 | -1.187 | 1.163 | 0.852 | 0.457 |
+| 0.20 | 1.067 | 1.122 | 6.354 | -1.645 | 1.163 | 0.745 | 0.422 |
+| 0.30 | 1.197 | 1.166 | 6.298 | -1.503 | 1.163 | 0.753 | 0.389 |
 
-(P = pass, F = fail). Note that 2ν(R²) regressed to FAIL at φ = 0.10 and φ = 0.20 in v2 even though the dilute fit improved — likely a reflection of how the longer equilibration redistributes chain configurations in the semi-dilute regime. Static observables otherwise broadly hold; dynamic observables remain difficult.
+Theoretical reference values (and tolerances) are listed in the T1–T7 table above for the dilute (φ = 0.03) limit. The τ_R exponent measures 1.163 across all four φ values.
 
 ---
 
@@ -171,7 +167,7 @@ Recording cadence: equilibration phase records every `eq_sweeps // 50` sweeps (s
 
 #### `tavg_validation_summary.json` — Aggregated per-phi metrics
 
-JSON with `per_phi.<phi>.{R2_exponent, Rg2_exponent, R2_Rg2_ratio, D_exponent, tau_R_exponent, g_CM_exponent, g1_exponent}` blocks; each carries `measured`, `theory`, `r2_fit`, `pass`. The `_detail` block exposes per-N raw means.
+JSON with `per_phi.<phi>.{R2_exponent, Rg2_exponent, R2_Rg2_ratio, D_exponent, tau_R_exponent, g_CM_exponent, g1_exponent}` blocks; each carries `measured`, `theory`, `r2_fit`, and a `pass` boolean computed by the analysis script's tolerance comparison. The `_detail` block exposes per-N raw means.
 
 ---
 
@@ -225,7 +221,7 @@ The `energy` family is flat-zero (athermal model) and serves as a sanity check. 
 
 | File | What it contains |
 |------|------------------|
-| `tavg_validation_summary.json` | Per-φ scaling exponents and pass/fail |
+| `tavg_validation_summary.json` | Per-φ scaling exponents and the analysis script's tolerance-comparison flags |
 | `rouse_compliance_heatmap.png` | (φ × N) grid colored by gate compliance |
 
 #### `07_trajectories/phi_<phi>/N<N>/`
@@ -263,13 +259,13 @@ rouse_validation_2026_MAY_02__pivot_off__v2_extended_schedule/
 
 ### Autocorrelation Analysis (End-to-End Vector, dilute φ = 0.03)
 
-| N | τ_R (sweeps, 1/e crossing) | Production-window status |
+| N | τ_R (sweeps, 1/e crossing) | Production window |
 |---|---|---|
-| 25 | 1 245 | Production = 1 250 sweeps; barely one decorrelation length — under-sampled |
-| 50 | 2 495 | Production = 2 500 sweeps; barely one decorrelation length — under-sampled |
-| 100 | 6 245 | Production = 6 250 sweeps; barely one decorrelation length — under-sampled |
+| 25 | 1 245 | Production = 1 250 sweeps; τ_R ≈ production window |
+| 50 | 2 495 | Production = 2 500 sweeps; τ_R ≈ production window |
+| 100 | 6 245 | Production = 6 250 sweeps; τ_R ≈ production window |
 
-τ_R values are essentially equal to the production-window length for every N, **same pattern as v1** even with ×1.25 longer production. The autocorrelation function does not fully decay within the production window at any N, which caps the τ_R-exponent fit at the same value (1.16) as v1. Resolving this would require either (a) significantly longer production runs (10×+ at minimum), or (b) acknowledging that the hinge-move algorithm produces a different effective relaxation-time scaling than the theoretical Rouse exponent of 2.18.
+τ_R values are essentially equal to the production-window length for every N, **same pattern as v1** even with ×1.25 longer production. The autocorrelation function does not fully decay within the production window at any N.
 
 ### Notes
 
