@@ -1,0 +1,517 @@
+2026-05-02 03:45:07,352 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C15] Zone1_r=1.90 Zone1_E=1000000.0 Zone1_Expected=1000000.0 Zone2_r=5.70 Zone2_E=0.0 Zone2_Expected=0.0 Zone3_r=11.40 Zone3_E=0.0 Zone3_Expected=0
+2026-05-02 03:45:07,747 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C21] MaxOrthogonalityError=1.332e-15 MaxBondLengthChange=2.665e-15
+2026-05-02 03:45:16,799 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C22] SampleCount=10000 ChiSquared=34.860 PValue=0.6154
+2026-05-02 03:45:17,554 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C23] DegenerateAxisTests=1000 NaN_Count=0 Inf_Count=0
+2026-05-02 03:45:17,743 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C25] ExtremeTests=1000 NaN_Count=0 Inf_Count=0 LargNegAccepted=true LargPosRejected=true
+2026-05-02 03:45:17,744 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C27] ZeroDeltaE_Tests=1000 ZeroDeltaE_Accepted=1000 AcceptRate=1.000000
+2026-05-02 03:45:17,744 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-BEGIN] matrix N=[25, 50, 100] phi=[0.03, 0.1, 0.2, 0.3] device=gpu backend=cuda_c
+2026-05-02 03:45:17,744 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-BEGIN] N=25 phi=0.0300 n_chains=100 eq=10000 prod=1250 box=165.98
+2026-05-02 03:45:34,967 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C1] NumberSpace=Active PBC=Enabled Path=PyTorchPath BoxSize=165.9803
+2026-05-02 03:45:34,968 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C2] MCAlgorithm=CudaCMultistepMC
+2026-05-02 03:45:34,968 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C3] EnergyPath=CellList DeltaEMethod=gpu_cell_list
+2026-05-02 03:45:34,968 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C19] CellListActive=true SweepEnginePath=CudaCMultistepMC+CUDAGraph
+2026-05-02 03:45:34,968 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C5] DeviceRequested=gpu DeviceResolved=gpu SilentFallback=false
+2026-05-02 03:45:34,968 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C6] DeltaEPath=FullTensor BatchSize=20 BatchesPerSweep=35 Policy=device=gpu,parallel=True
+2026-05-02 03:45:34,970 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C9] InitMethod=random_saw MinBondLength=3.800000 MaxBondLength=3.800000 MeanBondLength=3.800000
+2026-05-02 03:45:34,970 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C10] N=25 Phi=0.0300 BoxSize=165.980288 Expected=165.980288 Computed=165.980288 RelativeError=0.00e+00
+2026-05-02 03:45:34,971 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=1 OutputHash=769af1fd1b84d529
+2026-05-02 03:45:34,973 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C12] UnwrapMethod=BondVectorCumsum R2Computed=2.807178e+01 R2Expected=2.807178e+01 RelativeError=0.00e+00
+2026-05-02 03:45:34,973 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C13] R2_Sequential=2.807178e+01 R2_AnchorRelative=2.807178e+01 AbsDifference=0.00e+00
+2026-05-02 03:45:34,973 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C14] NeighborCells=27 PeriodicWrapping=true BoundaryBeadTest=PASS
+2026-05-02 03:45:34,995 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C16] ExcludedVolume=Enabled Sigma=3.80 ContactEnergy=0.00 EVCallCount=5
+2026-05-02 03:45:34,995 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C17] TotalE_CellList=7000000.000000 TotalE_BruteForce=7000000.000000 AbsDifference=0.000000e+00
+2026-05-02 03:45:34,995 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C18] DeltaE_CellList=0.000000 DeltaE_Full=0.000000 AbsDifference=0.000000e+00
+2026-05-02 03:45:34,997 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C20] AnchorDisplacement_Start=0.000000e+00 AnchorDisplacement_End=0.000000e+00
+2026-05-02 03:45:36,212 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C35] MaxBeadDisplacement=3.990000 L0_Bound=3.80 Sigma=3.80 Violations=0
+2026-05-02 03:45:36,639 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=2 OutputHash=769af1fd1b84d529
+2026-05-02 03:46:03,791 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C28] PaddedBeads=4 PaddedEnergyContribution=0.000000
+2026-05-02 03:46:03,791 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C29] SelfInteractionPairs=0
+2026-05-02 03:46:03,792 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C30] MidSweepSyncStalls=0 RefillTriggered=true
+2026-05-02 03:46:03,796 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=eq MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 03:46:12,824 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=400 window_step=400 hinge_rate=0.7274 max_angle: 1.5708 -> 1.8850 (target=0.400)
+2026-05-02 03:46:20,578 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=800 window_step=800 hinge_rate=0.7053 max_angle: 1.8850 -> 2.2619 (target=0.400)
+2026-05-02 03:46:28,361 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=1200 window_step=1200 hinge_rate=0.7045 max_angle: 2.2619 -> 2.7143 (target=0.400)
+2026-05-02 03:46:36,230 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=1600 window_step=1600 hinge_rate=0.6905 max_angle: 2.7143 -> 3.1416 (target=0.400)
+2026-05-02 03:46:43,930 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=2000 window_step=2000 hinge_rate=0.6863 max_angle: 3.1416 -> 3.1416 (target=0.400)
+2026-05-02 03:46:43,930 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] frozen tuned_max_angle_hinge=3.141593 sweep=2000
+2026-05-02 03:49:13,704 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=prod MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 03:49:13,704 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C32] FirstProductionSweep=10001 EquilibrationSweeps=10000
+2026-05-02 03:50:07,507 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C26] HingeAccept=0.689345 NTailAccept=0.862869 CTailAccept=0.886319
+2026-05-02 03:50:07,508 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C7] N=25 WallTimeSeconds=243.710
+2026-05-02 03:50:07,524 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C8] BondCheck=PASS MinBondLength=3.799911 MaxBondLength=3.800110 ExpectedL0=3.8000 Tolerance=0.1900
+2026-05-02 03:50:07,524 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C36] NSmallSteps=100 RescaleCount=112 MaxDriftAngstrom=0.000293 LastDriftAngstrom=0.000206 MaxBondStretchObserved=0.000036 LastBondStretchObserved=0.000029 L0=3.8000
+2026-05-02 03:50:07,524 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C39] MaxStretchObserved=0.000036 WarnThreshold=0.020000 RaiseThreshold=0.100000 Outcome=pass
+2026-05-02 03:50:07,525 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C31] CV_R2_Final20=0.0656 CV_Rg2_Final20=0.0328
+2026-05-02 03:50:07,525 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C33] TimeLag_CV=0.000000 TimeLag_Mean=5.0000 TimeLag_Std=0.0000
+2026-05-02 03:50:07,526 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C34] TrajectoryFormat=pdb TrajectoryFrames=101 TrajectoryStride=112 TrajectoryPath=validation_output_with_energy_v2\07_trajectories\phi_0.03\N25\trajectory.pdb TrajectoryUnwrapped=true Exists=true
+2026-05-02 03:50:07,526 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-END] N=25 phi=0.0300 wall_s=243.71 R2=952.06 Rg2=139.86
+2026-05-02 03:50:09,274 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-BEGIN] N=50 phi=0.0300 n_chains=100 eq=25000 prod=2500 box=209.12
+2026-05-02 03:50:46,791 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C1] NumberSpace=Active PBC=Enabled Path=PyTorchPath BoxSize=209.1221
+2026-05-02 03:50:46,791 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C2] MCAlgorithm=CudaCMultistepMC
+2026-05-02 03:50:46,792 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C3] EnergyPath=CellList DeltaEMethod=gpu_cell_list
+2026-05-02 03:50:46,792 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C19] CellListActive=true SweepEnginePath=CudaCMultistepMC+CUDAGraph
+2026-05-02 03:50:46,792 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C5] DeviceRequested=gpu DeviceResolved=gpu SilentFallback=false
+2026-05-02 03:50:46,792 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C6] DeltaEPath=FullTensor BatchSize=20 BatchesPerSweep=65 Policy=device=gpu,parallel=True
+2026-05-02 03:50:46,793 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C9] InitMethod=random_saw MinBondLength=3.800000 MaxBondLength=3.800000 MeanBondLength=3.800000
+2026-05-02 03:50:46,793 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C10] N=50 Phi=0.0300 BoxSize=209.122059 Expected=209.122059 Computed=209.122059 RelativeError=0.00e+00
+2026-05-02 03:50:46,794 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=1 OutputHash=c7d1a5612aba4e1e
+2026-05-02 03:50:46,797 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C12] UnwrapMethod=BondVectorCumsum R2Computed=9.202816e+00 R2Expected=9.202816e+00 RelativeError=0.00e+00
+2026-05-02 03:50:46,798 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C13] R2_Sequential=9.202816e+00 R2_AnchorRelative=9.202816e+00 AbsDifference=0.00e+00
+2026-05-02 03:50:46,798 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C14] NeighborCells=27 PeriodicWrapping=true BoundaryBeadTest=PASS
+2026-05-02 03:50:46,818 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C16] ExcludedVolume=Enabled Sigma=3.80 ContactEnergy=0.00 EVCallCount=5
+2026-05-02 03:50:46,819 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C17] TotalE_CellList=7000000.000000 TotalE_BruteForce=7000000.000000 AbsDifference=0.000000e+00
+2026-05-02 03:50:46,819 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C18] DeltaE_CellList=-2000000.000000 DeltaE_Full=-2000000.000000 AbsDifference=0.000000e+00
+2026-05-02 03:50:46,820 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C20] AnchorDisplacement_Start=0.000000e+00 AnchorDisplacement_End=0.000000e+00
+2026-05-02 03:50:47,994 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C35] MaxBeadDisplacement=3.990000 L0_Bound=3.80 Sigma=3.80 Violations=0
+2026-05-02 03:50:48,781 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=2 OutputHash=c7d1a5612aba4e1e
+2026-05-02 03:50:50,798 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C28] PaddedBeads=4 PaddedEnergyContribution=0.000000
+2026-05-02 03:50:50,798 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C29] SelfInteractionPairs=0
+2026-05-02 03:50:50,799 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C30] MidSweepSyncStalls=0 RefillTriggered=true
+2026-05-02 03:50:50,806 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=eq MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 03:51:25,598 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=1000 window_step=1000 hinge_rate=0.7031 max_angle: 1.5708 -> 1.8850 (target=0.400)
+2026-05-02 03:52:01,708 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=2000 window_step=2000 hinge_rate=0.6954 max_angle: 1.8850 -> 2.2619 (target=0.400)
+2026-05-02 03:52:36,192 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=3000 window_step=3000 hinge_rate=0.6824 max_angle: 2.2619 -> 2.7143 (target=0.400)
+2026-05-02 03:53:11,328 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=4000 window_step=4000 hinge_rate=0.6704 max_angle: 2.7143 -> 3.1416 (target=0.400)
+2026-05-02 03:53:46,326 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=5000 window_step=5000 hinge_rate=0.6692 max_angle: 3.1416 -> 3.1416 (target=0.400)
+2026-05-02 03:53:46,326 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] frozen tuned_max_angle_hinge=3.141593 sweep=5000
+2026-05-02 04:05:34,622 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=prod MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 04:05:34,622 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C32] FirstProductionSweep=25001 EquilibrationSweeps=25000
+2026-05-02 04:08:45,262 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C26] HingeAccept=0.668715 NTailAccept=0.870346 CTailAccept=0.872987
+2026-05-02 04:08:45,263 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C7] N=50 WallTimeSeconds=1074.456
+2026-05-02 04:08:45,264 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C8] BondCheck=PASS MinBondLength=3.800000 MaxBondLength=3.800000 ExpectedL0=3.8000 Tolerance=0.1900
+2026-05-02 04:08:45,264 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C36] NSmallSteps=100 RescaleCount=275 MaxDriftAngstrom=0.000465 LastDriftAngstrom=0.000290 MaxBondStretchObserved=0.000044 LastBondStretchObserved=0.000032 L0=3.8000
+2026-05-02 04:08:45,264 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C39] MaxStretchObserved=0.000044 WarnThreshold=0.020000 RaiseThreshold=0.100000 Outcome=pass
+2026-05-02 04:08:45,265 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C31] CV_R2_Final20=0.0375 CV_Rg2_Final20=0.0293
+2026-05-02 04:08:45,265 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C33] TimeLag_CV=0.000000 TimeLag_Mean=5.0000 TimeLag_Std=0.0000
+2026-05-02 04:08:45,265 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C34] TrajectoryFormat=pdb TrajectoryFrames=100 TrajectoryStride=275 TrajectoryPath=validation_output_with_energy_v2\07_trajectories\phi_0.03\N50\trajectory.pdb TrajectoryUnwrapped=true Exists=true
+2026-05-02 04:08:45,266 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-END] N=50 phi=0.0300 wall_s=1074.46 R2=2263.69 Rg2=340.59
+2026-05-02 04:08:46,663 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-BEGIN] N=100 phi=0.0300 n_chains=100 eq=50000 prod=6250 box=263.48
+2026-05-02 04:10:22,775 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C1] NumberSpace=Active PBC=Enabled Path=PyTorchPath BoxSize=263.4773
+2026-05-02 04:10:22,775 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C2] MCAlgorithm=CudaCMultistepMC
+2026-05-02 04:10:22,775 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C3] EnergyPath=CellList DeltaEMethod=gpu_cell_list
+2026-05-02 04:10:22,776 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C19] CellListActive=true SweepEnginePath=CudaCMultistepMC+CUDAGraph
+2026-05-02 04:10:22,776 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C5] DeviceRequested=gpu DeviceResolved=gpu SilentFallback=false
+2026-05-02 04:10:22,776 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C6] DeltaEPath=FullTensor BatchSize=20 BatchesPerSweep=125 Policy=device=gpu,parallel=True
+2026-05-02 04:10:22,777 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C9] InitMethod=random_saw MinBondLength=3.800000 MaxBondLength=3.800000 MeanBondLength=3.800000
+2026-05-02 04:10:22,777 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C10] N=100 Phi=0.0300 BoxSize=263.477284 Expected=263.477284 Computed=263.477284 RelativeError=0.00e+00
+2026-05-02 04:10:22,779 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=1 OutputHash=5d4559d975e3ba5d
+2026-05-02 04:10:22,788 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C12] UnwrapMethod=BondVectorCumsum R2Computed=6.822199e+02 R2Expected=6.822199e+02 RelativeError=0.00e+00
+2026-05-02 04:10:22,788 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C13] R2_Sequential=6.822199e+02 R2_AnchorRelative=6.822199e+02 AbsDifference=0.00e+00
+2026-05-02 04:10:22,788 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C14] NeighborCells=27 PeriodicWrapping=true BoundaryBeadTest=PASS
+2026-05-02 04:10:22,825 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C16] ExcludedVolume=Enabled Sigma=3.80 ContactEnergy=0.00 EVCallCount=5
+2026-05-02 04:10:22,825 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C17] TotalE_CellList=10000000.000000 TotalE_BruteForce=10000000.000000 AbsDifference=0.000000e+00
+2026-05-02 04:10:22,826 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C18] DeltaE_CellList=3000000.000000 DeltaE_Full=3000000.000000 AbsDifference=0.000000e+00
+2026-05-02 04:10:22,827 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C20] AnchorDisplacement_Start=0.000000e+00 AnchorDisplacement_End=0.000000e+00
+2026-05-02 04:10:24,064 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C35] MaxBeadDisplacement=3.990000 L0_Bound=3.80 Sigma=3.80 Violations=0
+2026-05-02 04:10:27,630 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=2 OutputHash=5d4559d975e3ba5d
+2026-05-02 04:10:28,108 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C28] PaddedBeads=4 PaddedEnergyContribution=0.000000
+2026-05-02 04:10:28,108 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C29] SelfInteractionPairs=0
+2026-05-02 04:10:28,110 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C30] MidSweepSyncStalls=0 RefillTriggered=true
+2026-05-02 04:10:28,125 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=eq MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 04:12:46,769 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=2000 window_step=2000 hinge_rate=0.6890 max_angle: 1.5708 -> 1.8850 (target=0.400)
+2026-05-02 04:15:03,514 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=4000 window_step=4000 hinge_rate=0.6887 max_angle: 1.8850 -> 2.2619 (target=0.400)
+2026-05-02 04:17:19,783 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=6000 window_step=6000 hinge_rate=0.6782 max_angle: 2.2619 -> 2.7143 (target=0.400)
+2026-05-02 04:19:38,555 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=8000 window_step=8000 hinge_rate=0.6676 max_angle: 2.7143 -> 3.1416 (target=0.400)
+2026-05-02 04:21:56,321 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=10000 window_step=10000 hinge_rate=0.6637 max_angle: 3.1416 -> 3.1416 (target=0.400)
+2026-05-02 04:21:56,322 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] frozen tuned_max_angle_hinge=3.141593 sweep=10000
+2026-05-02 05:07:05,221 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=prod MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 05:07:05,221 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C32] FirstProductionSweep=50001 EquilibrationSweeps=50000
+2026-05-02 05:19:30,064 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C26] HingeAccept=0.667348 NTailAccept=0.868501 CTailAccept=0.868880
+2026-05-02 05:19:30,066 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C7] N=100 WallTimeSeconds=4141.941
+2026-05-02 05:19:30,067 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C8] BondCheck=PASS MinBondLength=3.799906 MaxBondLength=3.800159 ExpectedL0=3.8000 Tolerance=0.1900
+2026-05-02 05:19:30,067 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C36] NSmallSteps=100 RescaleCount=562 MaxDriftAngstrom=0.001139 LastDriftAngstrom=0.000429 MaxBondStretchObserved=0.000101 LastBondStretchObserved=0.000053 L0=3.8000
+2026-05-02 05:19:30,068 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C39] MaxStretchObserved=0.000101 WarnThreshold=0.020000 RaiseThreshold=0.100000 Outcome=pass
+2026-05-02 05:19:30,068 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C31] CV_R2_Final20=0.0350 CV_Rg2_Final20=0.0136
+2026-05-02 05:19:30,069 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C33] TimeLag_CV=0.000000 TimeLag_Mean=5.0000 TimeLag_Std=0.0000
+2026-05-02 05:19:30,069 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C34] TrajectoryFormat=pdb TrajectoryFrames=101 TrajectoryStride=562 TrajectoryPath=validation_output_with_energy_v2\07_trajectories\phi_0.03\N100\trajectory.pdb TrajectoryUnwrapped=true Exists=true
+2026-05-02 05:19:30,069 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-END] N=100 phi=0.0300 wall_s=4141.94 R2=4816.72 Rg2=748.35
+2026-05-02 05:19:31,633 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-BEGIN] N=25 phi=0.1000 n_chains=100 eq=10000 prod=1250 box=111.11
+2026-05-02 05:20:19,510 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C1] NumberSpace=Active PBC=Enabled Path=PyTorchPath BoxSize=111.1127
+2026-05-02 05:20:19,510 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C2] MCAlgorithm=CudaCMultistepMC
+2026-05-02 05:20:19,510 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C3] EnergyPath=CellList DeltaEMethod=gpu_cell_list
+2026-05-02 05:20:19,510 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C19] CellListActive=true SweepEnginePath=CudaCMultistepMC+CUDAGraph
+2026-05-02 05:20:19,511 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C5] DeviceRequested=gpu DeviceResolved=gpu SilentFallback=false
+2026-05-02 05:20:19,511 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C6] DeltaEPath=FullTensor BatchSize=20 BatchesPerSweep=35 Policy=device=gpu,parallel=True
+2026-05-02 05:20:19,511 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C9] InitMethod=random_saw MinBondLength=3.800000 MaxBondLength=3.800000 MeanBondLength=3.800000
+2026-05-02 05:20:19,511 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C10] N=25 Phi=0.1000 BoxSize=111.112674 Expected=111.112674 Computed=111.112674 RelativeError=0.00e+00
+2026-05-02 05:20:19,512 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=1 OutputHash=6d887b921fcd2294
+2026-05-02 05:20:19,514 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C12] UnwrapMethod=BondVectorCumsum R2Computed=2.807178e+01 R2Expected=2.807178e+01 RelativeError=0.00e+00
+2026-05-02 05:20:19,514 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C13] R2_Sequential=2.807178e+01 R2_AnchorRelative=2.807178e+01 AbsDifference=0.00e+00
+2026-05-02 05:20:19,514 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C14] NeighborCells=27 PeriodicWrapping=true BoundaryBeadTest=PASS
+2026-05-02 05:20:19,540 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C16] ExcludedVolume=Enabled Sigma=3.80 ContactEnergy=0.00 EVCallCount=5
+2026-05-02 05:20:19,541 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C17] TotalE_CellList=7000000.000000 TotalE_BruteForce=7000000.000000 AbsDifference=0.000000e+00
+2026-05-02 05:20:19,541 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C18] DeltaE_CellList=1000000.000000 DeltaE_Full=1000000.000000 AbsDifference=0.000000e+00
+2026-05-02 05:20:19,542 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C20] AnchorDisplacement_Start=0.000000e+00 AnchorDisplacement_End=0.000000e+00
+2026-05-02 05:20:20,702 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C35] MaxBeadDisplacement=3.990000 L0_Bound=3.80 Sigma=3.80 Violations=0
+2026-05-02 05:20:21,493 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=2 OutputHash=6d887b921fcd2294
+2026-05-02 05:20:21,525 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C28] PaddedBeads=4 PaddedEnergyContribution=0.000000
+2026-05-02 05:20:21,525 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C29] SelfInteractionPairs=0
+2026-05-02 05:20:21,526 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C30] MidSweepSyncStalls=0 RefillTriggered=true
+2026-05-02 05:20:21,527 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=eq MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 05:20:29,793 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=400 window_step=400 hinge_rate=0.6703 max_angle: 1.5708 -> 1.8850 (target=0.400)
+2026-05-02 05:20:37,624 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=800 window_step=800 hinge_rate=0.6673 max_angle: 1.8850 -> 2.2619 (target=0.400)
+2026-05-02 05:20:45,123 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=1200 window_step=1200 hinge_rate=0.6515 max_angle: 2.2619 -> 2.7143 (target=0.400)
+2026-05-02 05:20:52,614 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=1600 window_step=1600 hinge_rate=0.6431 max_angle: 2.7143 -> 3.1416 (target=0.400)
+2026-05-02 05:21:00,362 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=2000 window_step=2000 hinge_rate=0.6322 max_angle: 3.1416 -> 3.1416 (target=0.400)
+2026-05-02 05:21:00,362 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] frozen tuned_max_angle_hinge=3.141593 sweep=2000
+2026-05-02 05:23:28,959 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=prod MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 05:23:28,959 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C32] FirstProductionSweep=10001 EquilibrationSweeps=10000
+2026-05-02 05:24:19,005 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C26] HingeAccept=0.635457 NTailAccept=0.774972 CTailAccept=0.830662
+2026-05-02 05:24:19,006 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C7] N=25 WallTimeSeconds=237.478
+2026-05-02 05:24:19,007 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C8] BondCheck=PASS MinBondLength=3.799972 MaxBondLength=3.800038 ExpectedL0=3.8000 Tolerance=0.1900
+2026-05-02 05:24:19,007 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C36] NSmallSteps=100 RescaleCount=112 MaxDriftAngstrom=0.000205 LastDriftAngstrom=0.000131 MaxBondStretchObserved=0.000025 LastBondStretchObserved=0.000014 L0=3.8000
+2026-05-02 05:24:19,007 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C39] MaxStretchObserved=0.000025 WarnThreshold=0.020000 RaiseThreshold=0.100000 Outcome=pass
+2026-05-02 05:24:19,007 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C31] CV_R2_Final20=0.0414 CV_Rg2_Final20=0.0227
+2026-05-02 05:24:19,008 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C33] TimeLag_CV=0.000000 TimeLag_Mean=5.0000 TimeLag_Std=0.0000
+2026-05-02 05:24:19,008 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C34] TrajectoryFormat=pdb TrajectoryFrames=101 TrajectoryStride=112 TrajectoryPath=validation_output_with_energy_v2\07_trajectories\phi_0.10\N25\trajectory.pdb TrajectoryUnwrapped=true Exists=true
+2026-05-02 05:24:19,008 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-END] N=25 phi=0.1000 wall_s=237.48 R2=866.18 Rg2=129.17
+2026-05-02 05:24:20,530 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-BEGIN] N=50 phi=0.1000 n_chains=100 eq=25000 prod=2500 box=139.99
+2026-05-02 05:32:35,667 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C1] NumberSpace=Active PBC=Enabled Path=PyTorchPath BoxSize=139.9932
+2026-05-02 05:32:35,667 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C2] MCAlgorithm=CudaCMultistepMC
+2026-05-02 05:32:35,667 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C3] EnergyPath=CellList DeltaEMethod=gpu_cell_list
+2026-05-02 05:32:35,668 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C19] CellListActive=true SweepEnginePath=CudaCMultistepMC+CUDAGraph
+2026-05-02 05:32:35,668 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C5] DeviceRequested=gpu DeviceResolved=gpu SilentFallback=false
+2026-05-02 05:32:35,668 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C6] DeltaEPath=FullTensor BatchSize=20 BatchesPerSweep=65 Policy=device=gpu,parallel=True
+2026-05-02 05:32:35,669 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C9] InitMethod=random_saw MinBondLength=3.800000 MaxBondLength=3.800000 MeanBondLength=3.800000
+2026-05-02 05:32:35,669 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C10] N=50 Phi=0.1000 BoxSize=139.993197 Expected=139.993197 Computed=139.993197 RelativeError=0.00e+00
+2026-05-02 05:32:35,670 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=1 OutputHash=0573cc8402f42022
+2026-05-02 05:32:35,673 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C12] UnwrapMethod=BondVectorCumsum R2Computed=9.202816e+00 R2Expected=9.202816e+00 RelativeError=0.00e+00
+2026-05-02 05:32:35,674 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C13] R2_Sequential=9.202816e+00 R2_AnchorRelative=9.202816e+00 AbsDifference=0.00e+00
+2026-05-02 05:32:35,674 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C14] NeighborCells=27 PeriodicWrapping=true BoundaryBeadTest=PASS
+2026-05-02 05:32:35,693 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C16] ExcludedVolume=Enabled Sigma=3.80 ContactEnergy=0.00 EVCallCount=5
+2026-05-02 05:32:35,693 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C17] TotalE_CellList=5000000.000000 TotalE_BruteForce=5000000.000000 AbsDifference=0.000000e+00
+2026-05-02 05:32:35,693 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C18] DeltaE_CellList=-1000000.000000 DeltaE_Full=-1000000.000000 AbsDifference=0.000000e+00
+2026-05-02 05:32:35,694 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C20] AnchorDisplacement_Start=0.000000e+00 AnchorDisplacement_End=0.000000e+00
+2026-05-02 05:32:36,908 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C35] MaxBeadDisplacement=3.990000 L0_Bound=3.80 Sigma=3.80 Violations=0
+2026-05-02 05:32:38,846 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=2 OutputHash=0573cc8402f42022
+2026-05-02 05:32:38,914 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C28] PaddedBeads=4 PaddedEnergyContribution=0.000000
+2026-05-02 05:32:38,914 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C29] SelfInteractionPairs=0
+2026-05-02 05:32:38,915 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C30] MidSweepSyncStalls=0 RefillTriggered=true
+2026-05-02 05:32:38,916 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=eq MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 05:33:14,514 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=1000 window_step=1000 hinge_rate=0.6492 max_angle: 1.5708 -> 1.8850 (target=0.400)
+2026-05-02 05:33:50,218 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=2000 window_step=2000 hinge_rate=0.6499 max_angle: 1.8850 -> 2.2619 (target=0.400)
+2026-05-02 05:34:27,537 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=3000 window_step=3000 hinge_rate=0.6347 max_angle: 2.2619 -> 2.7143 (target=0.400)
+2026-05-02 05:35:03,210 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=4000 window_step=4000 hinge_rate=0.6277 max_angle: 2.7143 -> 3.1416 (target=0.400)
+2026-05-02 05:35:37,976 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=5000 window_step=5000 hinge_rate=0.6136 max_angle: 3.1416 -> 3.1416 (target=0.400)
+2026-05-02 05:35:37,977 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] frozen tuned_max_angle_hinge=3.141593 sweep=5000
+2026-05-02 05:47:09,645 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=prod MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 05:47:09,645 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C32] FirstProductionSweep=25001 EquilibrationSweeps=25000
+2026-05-02 05:50:15,985 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C26] HingeAccept=0.618876 NTailAccept=0.779309 CTailAccept=0.810019
+2026-05-02 05:50:15,986 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C7] N=50 WallTimeSeconds=1057.069
+2026-05-02 05:50:15,987 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C8] BondCheck=PASS MinBondLength=3.800000 MaxBondLength=3.800000 ExpectedL0=3.8000 Tolerance=0.1900
+2026-05-02 05:50:15,987 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C36] NSmallSteps=100 RescaleCount=275 MaxDriftAngstrom=0.000448 LastDriftAngstrom=0.000285 MaxBondStretchObserved=0.000046 LastBondStretchObserved=0.000029 L0=3.8000
+2026-05-02 05:50:15,987 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C39] MaxStretchObserved=0.000046 WarnThreshold=0.020000 RaiseThreshold=0.100000 Outcome=pass
+2026-05-02 05:50:15,988 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C31] CV_R2_Final20=0.0347 CV_Rg2_Final20=0.0180
+2026-05-02 05:50:15,988 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C33] TimeLag_CV=0.000000 TimeLag_Mean=5.0000 TimeLag_Std=0.0000
+2026-05-02 05:50:15,988 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C34] TrajectoryFormat=pdb TrajectoryFrames=100 TrajectoryStride=275 TrajectoryPath=validation_output_with_energy_v2\07_trajectories\phi_0.10\N50\trajectory.pdb TrajectoryUnwrapped=true Exists=true
+2026-05-02 05:50:15,989 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-END] N=50 phi=0.1000 wall_s=1057.07 R2=1945.19 Rg2=305.47
+2026-05-02 05:50:17,498 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-BEGIN] N=100 phi=0.1000 n_chains=100 eq=50000 prod=6250 box=176.38
+2026-05-02 06:27:18,403 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C1] NumberSpace=Active PBC=Enabled Path=PyTorchPath BoxSize=176.3804
+2026-05-02 06:27:18,404 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C2] MCAlgorithm=CudaCMultistepMC
+2026-05-02 06:27:18,404 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C3] EnergyPath=CellList DeltaEMethod=gpu_cell_list
+2026-05-02 06:27:18,404 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C19] CellListActive=true SweepEnginePath=CudaCMultistepMC+CUDAGraph
+2026-05-02 06:27:18,404 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C5] DeviceRequested=gpu DeviceResolved=gpu SilentFallback=false
+2026-05-02 06:27:18,404 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C6] DeltaEPath=FullTensor BatchSize=20 BatchesPerSweep=125 Policy=device=gpu,parallel=True
+2026-05-02 06:27:18,405 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C9] InitMethod=random_saw MinBondLength=3.800000 MaxBondLength=3.800000 MeanBondLength=3.800000
+2026-05-02 06:27:18,405 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C10] N=100 Phi=0.1000 BoxSize=176.380376 Expected=176.380376 Computed=176.380376 RelativeError=0.00e+00
+2026-05-02 06:27:18,406 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=1 OutputHash=d4a4e44e9e71e123
+2026-05-02 06:27:18,413 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C12] UnwrapMethod=BondVectorCumsum R2Computed=6.822199e+02 R2Expected=6.822199e+02 RelativeError=0.00e+00
+2026-05-02 06:27:18,413 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C13] R2_Sequential=6.822199e+02 R2_AnchorRelative=6.822199e+02 AbsDifference=0.00e+00
+2026-05-02 06:27:18,413 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C14] NeighborCells=27 PeriodicWrapping=true BoundaryBeadTest=PASS
+2026-05-02 06:27:18,438 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C16] ExcludedVolume=Enabled Sigma=3.80 ContactEnergy=0.00 EVCallCount=5
+2026-05-02 06:27:18,438 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C17] TotalE_CellList=7000000.000000 TotalE_BruteForce=7000000.000000 AbsDifference=0.000000e+00
+2026-05-02 06:27:18,438 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C18] DeltaE_CellList=3000000.000000 DeltaE_Full=3000000.000000 AbsDifference=0.000000e+00
+2026-05-02 06:27:18,439 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C20] AnchorDisplacement_Start=0.000000e+00 AnchorDisplacement_End=0.000000e+00
+2026-05-02 06:27:19,728 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C35] MaxBeadDisplacement=3.990000 L0_Bound=3.80 Sigma=3.80 Violations=0
+2026-05-02 06:27:33,185 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=2 OutputHash=d4a4e44e9e71e123
+2026-05-02 06:27:33,382 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C28] PaddedBeads=4 PaddedEnergyContribution=0.000000
+2026-05-02 06:27:33,382 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C29] SelfInteractionPairs=0
+2026-05-02 06:27:33,383 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C30] MidSweepSyncStalls=0 RefillTriggered=true
+2026-05-02 06:27:33,387 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=eq MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 06:29:47,276 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=2000 window_step=2000 hinge_rate=0.6437 max_angle: 1.5708 -> 1.8850 (target=0.400)
+2026-05-02 06:32:00,931 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=4000 window_step=4000 hinge_rate=0.6477 max_angle: 1.8850 -> 2.2619 (target=0.400)
+2026-05-02 06:34:06,873 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=6000 window_step=6000 hinge_rate=0.6341 max_angle: 2.2619 -> 2.7143 (target=0.400)
+2026-05-02 06:36:14,936 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=8000 window_step=8000 hinge_rate=0.6228 max_angle: 2.7143 -> 3.1416 (target=0.400)
+2026-05-02 06:38:26,815 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=10000 window_step=10000 hinge_rate=0.6148 max_angle: 3.1416 -> 3.1416 (target=0.400)
+2026-05-02 06:38:26,815 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] frozen tuned_max_angle_hinge=3.141593 sweep=10000
+2026-05-02 07:23:12,256 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=prod MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 07:23:12,256 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C32] FirstProductionSweep=50001 EquilibrationSweeps=50000
+2026-05-02 07:35:26,635 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C26] HingeAccept=0.619819 NTailAccept=0.780530 CTailAccept=0.777805
+2026-05-02 07:35:26,637 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C7] N=100 WallTimeSeconds=4073.249
+2026-05-02 07:35:26,639 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C8] BondCheck=PASS MinBondLength=3.799940 MaxBondLength=3.800087 ExpectedL0=3.8000 Tolerance=0.1900
+2026-05-02 07:35:26,639 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C36] NSmallSteps=100 RescaleCount=562 MaxDriftAngstrom=0.000689 LastDriftAngstrom=0.000360 MaxBondStretchObserved=0.000051 LastBondStretchObserved=0.000029 L0=3.8000
+2026-05-02 07:35:26,639 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C39] MaxStretchObserved=0.000051 WarnThreshold=0.020000 RaiseThreshold=0.100000 Outcome=pass
+2026-05-02 07:35:26,640 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C31] CV_R2_Final20=0.0417 CV_Rg2_Final20=0.0133
+2026-05-02 07:35:26,640 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C33] TimeLag_CV=0.000000 TimeLag_Mean=5.0000 TimeLag_Std=0.0000
+2026-05-02 07:35:26,640 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C34] TrajectoryFormat=pdb TrajectoryFrames=101 TrajectoryStride=562 TrajectoryPath=validation_output_with_energy_v2\07_trajectories\phi_0.10\N100\trajectory.pdb TrajectoryUnwrapped=true Exists=true
+2026-05-02 07:35:26,641 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-END] N=100 phi=0.1000 wall_s=4073.25 R2=3670.18 Rg2=616.61
+2026-05-02 07:35:28,149 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-BEGIN] N=25 phi=0.2000 n_chains=100 eq=10000 prod=1250 box=88.19
+2026-05-02 07:44:26,001 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C1] NumberSpace=Active PBC=Enabled Path=PyTorchPath BoxSize=88.1902
+2026-05-02 07:44:26,001 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C2] MCAlgorithm=CudaCMultistepMC
+2026-05-02 07:44:26,001 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C3] EnergyPath=CellList DeltaEMethod=gpu_cell_list
+2026-05-02 07:44:26,002 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C19] CellListActive=true SweepEnginePath=CudaCMultistepMC+CUDAGraph
+2026-05-02 07:44:26,002 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C5] DeviceRequested=gpu DeviceResolved=gpu SilentFallback=false
+2026-05-02 07:44:26,002 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C6] DeltaEPath=FullTensor BatchSize=20 BatchesPerSweep=35 Policy=device=gpu,parallel=True
+2026-05-02 07:44:26,002 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C9] InitMethod=random_saw MinBondLength=3.800000 MaxBondLength=3.800000 MeanBondLength=3.800000
+2026-05-02 07:44:26,003 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C10] N=25 Phi=0.2000 BoxSize=88.190188 Expected=88.190188 Computed=88.190188 RelativeError=0.00e+00
+2026-05-02 07:44:26,003 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=1 OutputHash=7b42cb699268b8cb
+2026-05-02 07:44:26,005 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C12] UnwrapMethod=BondVectorCumsum R2Computed=2.807178e+01 R2Expected=2.807178e+01 RelativeError=0.00e+00
+2026-05-02 07:44:26,005 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C13] R2_Sequential=2.807178e+01 R2_AnchorRelative=2.807178e+01 AbsDifference=0.00e+00
+2026-05-02 07:44:26,005 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C14] NeighborCells=27 PeriodicWrapping=true BoundaryBeadTest=PASS
+2026-05-02 07:44:26,024 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C16] ExcludedVolume=Enabled Sigma=3.80 ContactEnergy=0.00 EVCallCount=5
+2026-05-02 07:44:26,025 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C17] TotalE_CellList=5000000.000000 TotalE_BruteForce=5000000.000000 AbsDifference=0.000000e+00
+2026-05-02 07:44:26,025 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C18] DeltaE_CellList=1000000.000000 DeltaE_Full=1000000.000000 AbsDifference=0.000000e+00
+2026-05-02 07:44:26,026 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C20] AnchorDisplacement_Start=0.000000e+00 AnchorDisplacement_End=0.000000e+00
+2026-05-02 07:44:27,253 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C35] MaxBeadDisplacement=3.990000 L0_Bound=3.80 Sigma=3.80 Violations=0
+2026-05-02 07:44:29,629 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=2 OutputHash=7b42cb699268b8cb
+2026-05-02 07:44:29,658 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C28] PaddedBeads=4 PaddedEnergyContribution=0.000000
+2026-05-02 07:44:29,659 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C29] SelfInteractionPairs=0
+2026-05-02 07:44:29,659 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C30] MidSweepSyncStalls=0 RefillTriggered=true
+2026-05-02 07:44:29,660 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=eq MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 07:44:37,698 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=400 window_step=400 hinge_rate=0.5389 max_angle: 1.5708 -> 1.8850 (target=0.400)
+2026-05-02 07:44:44,880 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=800 window_step=800 hinge_rate=0.5322 max_angle: 1.8850 -> 2.2619 (target=0.400)
+2026-05-02 07:44:50,976 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=1200 window_step=1200 hinge_rate=0.5345 max_angle: 2.2619 -> 2.7143 (target=0.400)
+2026-05-02 07:44:58,181 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=1600 window_step=1600 hinge_rate=0.5190 max_angle: 2.7143 -> 3.1416 (target=0.400)
+2026-05-02 07:45:05,698 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=2000 window_step=2000 hinge_rate=0.5083 max_angle: 3.1416 -> 3.1416 (target=0.400)
+2026-05-02 07:45:05,698 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] frozen tuned_max_angle_hinge=3.141593 sweep=2000
+2026-05-02 07:47:38,249 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=prod MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 07:47:38,249 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C32] FirstProductionSweep=10001 EquilibrationSweeps=10000
+2026-05-02 07:48:31,227 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C26] HingeAccept=0.513298 NTailAccept=0.594119 CTailAccept=0.747420
+2026-05-02 07:48:31,227 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C7] N=25 WallTimeSeconds=241.567
+2026-05-02 07:48:31,230 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C8] BondCheck=PASS MinBondLength=3.799969 MaxBondLength=3.800037 ExpectedL0=3.8000 Tolerance=0.1900
+2026-05-02 07:48:31,230 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C36] NSmallSteps=100 RescaleCount=112 MaxDriftAngstrom=0.000160 LastDriftAngstrom=0.000153 MaxBondStretchObserved=0.000023 LastBondStretchObserved=0.000016 L0=3.8000
+2026-05-02 07:48:31,230 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C39] MaxStretchObserved=0.000023 WarnThreshold=0.020000 RaiseThreshold=0.100000 Outcome=pass
+2026-05-02 07:48:31,230 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C31] CV_R2_Final20=0.0464 CV_Rg2_Final20=0.0200
+2026-05-02 07:48:31,231 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C33] TimeLag_CV=0.000000 TimeLag_Mean=5.0000 TimeLag_Std=0.0000
+2026-05-02 07:48:31,231 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C34] TrajectoryFormat=pdb TrajectoryFrames=101 TrajectoryStride=112 TrajectoryPath=validation_output_with_energy_v2\07_trajectories\phi_0.20\N25\trajectory.pdb TrajectoryUnwrapped=true Exists=true
+2026-05-02 07:48:31,232 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-END] N=25 phi=0.2000 wall_s=241.57 R2=917.92 Rg2=133.30
+2026-05-02 07:48:32,631 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-BEGIN] N=50 phi=0.2000 n_chains=100 eq=25000 prod=2500 box=111.11
+2026-05-02 08:15:33,759 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C1] NumberSpace=Active PBC=Enabled Path=PyTorchPath BoxSize=111.1127
+2026-05-02 08:15:33,760 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C2] MCAlgorithm=CudaCMultistepMC
+2026-05-02 08:15:33,760 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C3] EnergyPath=CellList DeltaEMethod=gpu_cell_list
+2026-05-02 08:15:33,760 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C19] CellListActive=true SweepEnginePath=CudaCMultistepMC+CUDAGraph
+2026-05-02 08:15:33,760 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C5] DeviceRequested=gpu DeviceResolved=gpu SilentFallback=false
+2026-05-02 08:15:33,760 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C6] DeltaEPath=FullTensor BatchSize=20 BatchesPerSweep=65 Policy=device=gpu,parallel=True
+2026-05-02 08:15:33,761 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C9] InitMethod=random_saw MinBondLength=3.800000 MaxBondLength=3.800000 MeanBondLength=3.800000
+2026-05-02 08:15:33,761 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C10] N=50 Phi=0.2000 BoxSize=111.112674 Expected=111.112674 Computed=111.112674 RelativeError=0.00e+00
+2026-05-02 08:15:33,762 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=1 OutputHash=9fb317d6d8f6d0c1
+2026-05-02 08:15:33,765 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C12] UnwrapMethod=BondVectorCumsum R2Computed=9.202816e+00 R2Expected=9.202816e+00 RelativeError=0.00e+00
+2026-05-02 08:15:33,765 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C13] R2_Sequential=9.202816e+00 R2_AnchorRelative=9.202816e+00 AbsDifference=0.00e+00
+2026-05-02 08:15:33,766 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C14] NeighborCells=27 PeriodicWrapping=true BoundaryBeadTest=PASS
+2026-05-02 08:15:33,783 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C16] ExcludedVolume=Enabled Sigma=3.80 ContactEnergy=0.00 EVCallCount=5
+2026-05-02 08:15:33,784 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C17] TotalE_CellList=4000000.000000 TotalE_BruteForce=4000000.000000 AbsDifference=0.000000e+00
+2026-05-02 08:15:33,784 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C18] DeltaE_CellList=-1000000.000000 DeltaE_Full=-1000000.000000 AbsDifference=0.000000e+00
+2026-05-02 08:15:33,785 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C20] AnchorDisplacement_Start=0.000000e+00 AnchorDisplacement_End=0.000000e+00
+2026-05-02 08:15:35,030 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C35] MaxBeadDisplacement=3.990000 L0_Bound=3.80 Sigma=3.80 Violations=0
+2026-05-02 08:15:53,556 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=2 OutputHash=9fb317d6d8f6d0c1
+2026-05-02 08:15:53,592 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C28] PaddedBeads=4 PaddedEnergyContribution=0.000000
+2026-05-02 08:15:53,593 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C29] SelfInteractionPairs=0
+2026-05-02 08:15:53,595 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C30] MidSweepSyncStalls=0 RefillTriggered=true
+2026-05-02 08:15:53,596 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=eq MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 08:16:29,146 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=1000 window_step=1000 hinge_rate=0.4857 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 08:17:03,655 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=2000 window_step=2000 hinge_rate=0.5210 max_angle: 1.5708 -> 1.8850 (target=0.400)
+2026-05-02 08:17:39,289 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=3000 window_step=3000 hinge_rate=0.5144 max_angle: 1.8850 -> 2.2619 (target=0.400)
+2026-05-02 08:18:12,615 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=4000 window_step=4000 hinge_rate=0.5038 max_angle: 2.2619 -> 2.7143 (target=0.400)
+2026-05-02 08:18:45,068 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=5000 window_step=5000 hinge_rate=0.4951 max_angle: 2.7143 -> 2.7143 (target=0.400)
+2026-05-02 08:18:45,068 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] frozen tuned_max_angle_hinge=2.714336 sweep=5000
+2026-05-02 08:30:14,304 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=prod MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 08:30:14,304 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C32] FirstProductionSweep=25001 EquilibrationSweeps=25000
+2026-05-02 08:33:21,382 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C26] HingeAccept=0.508908 NTailAccept=0.606090 CTailAccept=0.679793
+2026-05-02 08:33:21,383 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C7] N=50 WallTimeSeconds=1047.786
+2026-05-02 08:33:21,384 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C8] BondCheck=PASS MinBondLength=3.800000 MaxBondLength=3.800000 ExpectedL0=3.8000 Tolerance=0.1900
+2026-05-02 08:33:21,384 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C36] NSmallSteps=100 RescaleCount=275 MaxDriftAngstrom=0.000213 LastDriftAngstrom=0.000176 MaxBondStretchObserved=0.000029 LastBondStretchObserved=0.000017 L0=3.8000
+2026-05-02 08:33:21,384 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C39] MaxStretchObserved=0.000029 WarnThreshold=0.020000 RaiseThreshold=0.100000 Outcome=pass
+2026-05-02 08:33:21,385 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C31] CV_R2_Final20=0.0462 CV_Rg2_Final20=0.0149
+2026-05-02 08:33:21,385 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C33] TimeLag_CV=0.000000 TimeLag_Mean=5.0000 TimeLag_Std=0.0000
+2026-05-02 08:33:21,385 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C34] TrajectoryFormat=pdb TrajectoryFrames=100 TrajectoryStride=275 TrajectoryPath=validation_output_with_energy_v2\07_trajectories\phi_0.20\N50\trajectory.pdb TrajectoryUnwrapped=true Exists=true
+2026-05-02 08:33:21,386 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-END] N=50 phi=0.2000 wall_s=1047.79 R2=1691.87 Rg2=268.08
+2026-05-02 08:33:22,764 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-BEGIN] N=100 phi=0.2000 n_chains=100 eq=50000 prod=6250 box=139.99
+2026-05-02 09:51:30,878 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C1] NumberSpace=Active PBC=Enabled Path=PyTorchPath BoxSize=139.9932
+2026-05-02 09:51:30,878 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C2] MCAlgorithm=CudaCMultistepMC
+2026-05-02 09:51:30,878 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C3] EnergyPath=CellList DeltaEMethod=gpu_cell_list
+2026-05-02 09:51:30,878 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C19] CellListActive=true SweepEnginePath=CudaCMultistepMC+CUDAGraph
+2026-05-02 09:51:30,879 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C5] DeviceRequested=gpu DeviceResolved=gpu SilentFallback=false
+2026-05-02 09:51:30,879 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C6] DeltaEPath=FullTensor BatchSize=20 BatchesPerSweep=125 Policy=device=gpu,parallel=True
+2026-05-02 09:51:30,881 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C9] InitMethod=random_saw MinBondLength=3.800000 MaxBondLength=3.800000 MeanBondLength=3.800000
+2026-05-02 09:51:30,881 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C10] N=100 Phi=0.2000 BoxSize=139.993197 Expected=139.993197 Computed=139.993197 RelativeError=0.00e+00
+2026-05-02 09:51:30,883 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=1 OutputHash=7206d9421dc7ca79
+2026-05-02 09:51:30,895 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C12] UnwrapMethod=BondVectorCumsum R2Computed=6.822199e+02 R2Expected=6.822199e+02 RelativeError=0.00e+00
+2026-05-02 09:51:30,896 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C13] R2_Sequential=6.822199e+02 R2_AnchorRelative=6.822199e+02 AbsDifference=0.00e+00
+2026-05-02 09:51:30,896 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C14] NeighborCells=27 PeriodicWrapping=true BoundaryBeadTest=PASS
+2026-05-02 09:51:30,929 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C16] ExcludedVolume=Enabled Sigma=3.80 ContactEnergy=0.00 EVCallCount=5
+2026-05-02 09:51:30,930 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C17] TotalE_CellList=6000000.000000 TotalE_BruteForce=6000000.000000 AbsDifference=0.000000e+00
+2026-05-02 09:51:30,930 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C18] DeltaE_CellList=4000000.000000 DeltaE_Full=4000000.000000 AbsDifference=0.000000e+00
+2026-05-02 09:51:30,931 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C20] AnchorDisplacement_Start=0.000000e+00 AnchorDisplacement_End=0.000000e+00
+2026-05-02 09:51:32,270 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C35] MaxBeadDisplacement=3.990000 L0_Bound=3.80 Sigma=3.80 Violations=0
+2026-05-02 09:54:19,368 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=2 OutputHash=7206d9421dc7ca79
+2026-05-02 09:54:19,441 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C28] PaddedBeads=4 PaddedEnergyContribution=0.000000
+2026-05-02 09:54:19,442 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C29] SelfInteractionPairs=0
+2026-05-02 09:54:19,443 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C30] MidSweepSyncStalls=0 RefillTriggered=true
+2026-05-02 09:54:19,446 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=eq MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 09:56:31,068 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=2000 window_step=2000 hinge_rate=0.4845 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 09:58:41,732 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=4000 window_step=4000 hinge_rate=0.5223 max_angle: 1.5708 -> 1.8850 (target=0.400)
+2026-05-02 10:00:54,006 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=6000 window_step=6000 hinge_rate=0.5201 max_angle: 1.8850 -> 2.2619 (target=0.400)
+2026-05-02 10:03:06,639 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=8000 window_step=8000 hinge_rate=0.5121 max_angle: 2.2619 -> 2.7143 (target=0.400)
+2026-05-02 10:05:18,997 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=10000 window_step=10000 hinge_rate=0.5019 max_angle: 2.7143 -> 3.1416 (target=0.400)
+2026-05-02 10:05:18,997 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] frozen tuned_max_angle_hinge=3.141593 sweep=10000
+2026-05-02 10:48:43,621 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=prod MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 10:48:43,621 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C32] FirstProductionSweep=50001 EquilibrationSweeps=50000
+2026-05-02 11:00:41,014 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C26] HingeAccept=0.502522 NTailAccept=0.603265 CTailAccept=0.600602
+2026-05-02 11:00:41,017 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C7] N=100 WallTimeSeconds=3981.570
+2026-05-02 11:00:41,018 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C8] BondCheck=PASS MinBondLength=3.799942 MaxBondLength=3.800082 ExpectedL0=3.8000 Tolerance=0.1900
+2026-05-02 11:00:41,018 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C36] NSmallSteps=100 RescaleCount=562 MaxDriftAngstrom=0.000571 LastDriftAngstrom=0.000308 MaxBondStretchObserved=0.000044 LastBondStretchObserved=0.000032 L0=3.8000
+2026-05-02 11:00:41,018 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C39] MaxStretchObserved=0.000044 WarnThreshold=0.020000 RaiseThreshold=0.100000 Outcome=pass
+2026-05-02 11:00:41,019 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C31] CV_R2_Final20=0.0181 CV_Rg2_Final20=0.0089
+2026-05-02 11:00:41,020 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C33] TimeLag_CV=0.000000 TimeLag_Mean=5.0000 TimeLag_Std=0.0000
+2026-05-02 11:00:41,020 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C34] TrajectoryFormat=pdb TrajectoryFrames=101 TrajectoryStride=562 TrajectoryPath=validation_output_with_energy_v2\07_trajectories\phi_0.20\N100\trajectory.pdb TrajectoryUnwrapped=true Exists=true
+2026-05-02 11:00:41,020 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-END] N=100 phi=0.2000 wall_s=3981.57 R2=3971.12 Rg2=629.61
+2026-05-02 11:00:42,708 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-BEGIN] N=25 phi=0.3000 n_chains=100 eq=10000 prod=1250 box=77.04
+2026-05-02 11:15:07,514 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C1] NumberSpace=Active PBC=Enabled Path=PyTorchPath BoxSize=77.0412
+2026-05-02 11:15:07,514 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C2] MCAlgorithm=CudaCMultistepMC
+2026-05-02 11:15:07,515 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C3] EnergyPath=CellList DeltaEMethod=gpu_cell_list
+2026-05-02 11:15:07,515 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C19] CellListActive=true SweepEnginePath=CudaCMultistepMC+CUDAGraph
+2026-05-02 11:15:07,515 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C5] DeviceRequested=gpu DeviceResolved=gpu SilentFallback=false
+2026-05-02 11:15:07,515 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C6] DeltaEPath=FullTensor BatchSize=20 BatchesPerSweep=35 Policy=device=gpu,parallel=True
+2026-05-02 11:15:07,516 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C9] InitMethod=random_saw MinBondLength=3.800000 MaxBondLength=3.800000 MeanBondLength=3.800000
+2026-05-02 11:15:07,517 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C10] N=25 Phi=0.3000 BoxSize=77.041225 Expected=77.041225 Computed=77.041225 RelativeError=0.00e+00
+2026-05-02 11:15:07,518 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=1 OutputHash=d6c87d9aeb796ee7
+2026-05-02 11:15:07,521 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C12] UnwrapMethod=BondVectorCumsum R2Computed=2.807178e+01 R2Expected=2.807178e+01 RelativeError=0.00e+00
+2026-05-02 11:15:07,521 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C13] R2_Sequential=2.807178e+01 R2_AnchorRelative=2.807178e+01 AbsDifference=0.00e+00
+2026-05-02 11:15:07,521 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C14] NeighborCells=27 PeriodicWrapping=true BoundaryBeadTest=PASS
+2026-05-02 11:15:07,539 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C16] ExcludedVolume=Enabled Sigma=3.80 ContactEnergy=0.00 EVCallCount=5
+2026-05-02 11:15:07,539 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C17] TotalE_CellList=-1000000.000000 TotalE_BruteForce=-1000000.000000 AbsDifference=0.000000e+00
+2026-05-02 11:15:07,539 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C18] DeltaE_CellList=-1000000.000000 DeltaE_Full=-1000000.000000 AbsDifference=0.000000e+00
+2026-05-02 11:15:07,540 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C20] AnchorDisplacement_Start=0.000000e+00 AnchorDisplacement_End=0.000000e+00
+2026-05-02 11:15:08,706 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C35] MaxBeadDisplacement=3.990000 L0_Bound=3.80 Sigma=3.80 Violations=0
+2026-05-02 11:15:24,418 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=2 OutputHash=d6c87d9aeb796ee7
+2026-05-02 11:15:24,432 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C28] PaddedBeads=4 PaddedEnergyContribution=0.000000
+2026-05-02 11:15:24,432 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C29] SelfInteractionPairs=0
+2026-05-02 11:15:24,433 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C30] MidSweepSyncStalls=0 RefillTriggered=true
+2026-05-02 11:15:24,434 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=eq MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 11:15:32,306 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=400 window_step=400 hinge_rate=0.3875 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 11:15:39,799 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=800 window_step=800 hinge_rate=0.4028 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 11:15:47,449 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=1200 window_step=1200 hinge_rate=0.4108 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 11:15:55,039 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=1600 window_step=1600 hinge_rate=0.4173 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 11:16:02,619 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=2000 window_step=2000 hinge_rate=0.4199 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 11:16:02,619 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] frozen tuned_max_angle_hinge=1.570796 sweep=2000
+2026-05-02 11:18:35,019 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=prod MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 11:18:35,019 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C32] FirstProductionSweep=10001 EquilibrationSweeps=10000
+2026-05-02 11:19:25,783 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C26] HingeAccept=0.428600 NTailAccept=0.433109 CTailAccept=0.693544
+2026-05-02 11:19:25,783 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C7] N=25 WallTimeSeconds=241.349
+2026-05-02 11:19:25,785 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C8] BondCheck=PASS MinBondLength=3.799969 MaxBondLength=3.800035 ExpectedL0=3.8000 Tolerance=0.1900
+2026-05-02 11:19:25,785 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C36] NSmallSteps=100 RescaleCount=112 MaxDriftAngstrom=0.000154 LastDriftAngstrom=0.000100 MaxBondStretchObserved=0.000022 LastBondStretchObserved=0.000013 L0=3.8000
+2026-05-02 11:19:25,785 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C39] MaxStretchObserved=0.000022 WarnThreshold=0.020000 RaiseThreshold=0.100000 Outcome=pass
+2026-05-02 11:19:25,785 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C31] CV_R2_Final20=0.0320 CV_Rg2_Final20=0.0095
+2026-05-02 11:19:25,786 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C33] TimeLag_CV=0.000000 TimeLag_Mean=5.0000 TimeLag_Std=0.0000
+2026-05-02 11:19:25,786 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C34] TrajectoryFormat=pdb TrajectoryFrames=101 TrajectoryStride=112 TrajectoryPath=validation_output_with_energy_v2\07_trajectories\phi_0.30\N25\trajectory.pdb TrajectoryUnwrapped=true Exists=true
+2026-05-02 11:19:25,786 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-END] N=25 phi=0.3000 wall_s=241.35 R2=770.92 Rg2=119.11
+2026-05-02 11:19:27,162 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-BEGIN] N=50 phi=0.3000 n_chains=100 eq=25000 prod=2500 box=97.07
+2026-05-02 11:57:33,740 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C1] NumberSpace=Active PBC=Enabled Path=PyTorchPath BoxSize=97.0659
+2026-05-02 11:57:33,740 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C2] MCAlgorithm=CudaCMultistepMC
+2026-05-02 11:57:33,740 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C3] EnergyPath=CellList DeltaEMethod=gpu_cell_list
+2026-05-02 11:57:33,741 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C19] CellListActive=true SweepEnginePath=CudaCMultistepMC+CUDAGraph
+2026-05-02 11:57:33,741 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C5] DeviceRequested=gpu DeviceResolved=gpu SilentFallback=false
+2026-05-02 11:57:33,741 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C6] DeltaEPath=FullTensor BatchSize=20 BatchesPerSweep=65 Policy=device=gpu,parallel=True
+2026-05-02 11:57:33,742 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C9] InitMethod=random_saw MinBondLength=3.800000 MaxBondLength=3.800000 MeanBondLength=3.800000
+2026-05-02 11:57:33,743 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C10] N=50 Phi=0.3000 BoxSize=97.065861 Expected=97.065861 Computed=97.065861 RelativeError=0.00e+00
+2026-05-02 11:57:33,744 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=1 OutputHash=cccebfb793d51b46
+2026-05-02 11:57:33,747 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C12] UnwrapMethod=BondVectorCumsum R2Computed=9.202816e+00 R2Expected=9.202816e+00 RelativeError=0.00e+00
+2026-05-02 11:57:33,747 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C13] R2_Sequential=9.202816e+00 R2_AnchorRelative=9.202816e+00 AbsDifference=0.00e+00
+2026-05-02 11:57:33,748 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C14] NeighborCells=27 PeriodicWrapping=true BoundaryBeadTest=PASS
+2026-05-02 11:57:33,765 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C16] ExcludedVolume=Enabled Sigma=3.80 ContactEnergy=0.00 EVCallCount=5
+2026-05-02 11:57:33,765 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C17] TotalE_CellList=3000000.000000 TotalE_BruteForce=3000000.000000 AbsDifference=0.000000e+00
+2026-05-02 11:57:33,765 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C18] DeltaE_CellList=0.000000 DeltaE_Full=0.000000 AbsDifference=0.000000e+00
+2026-05-02 11:57:33,766 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C20] AnchorDisplacement_Start=0.000000e+00 AnchorDisplacement_End=0.000000e+00
+2026-05-02 11:57:35,014 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C35] MaxBeadDisplacement=3.990000 L0_Bound=3.80 Sigma=3.80 Violations=0
+2026-05-02 11:58:27,084 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=2 OutputHash=cccebfb793d51b46
+2026-05-02 11:58:27,105 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C28] PaddedBeads=4 PaddedEnergyContribution=0.000000
+2026-05-02 11:58:27,105 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C29] SelfInteractionPairs=0
+2026-05-02 11:58:27,106 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C30] MidSweepSyncStalls=0 RefillTriggered=true
+2026-05-02 11:58:27,107 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=eq MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 11:58:59,723 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=1000 window_step=1000 hinge_rate=0.3660 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 11:59:29,381 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=2000 window_step=2000 hinge_rate=0.3945 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 12:00:01,943 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=3000 window_step=3000 hinge_rate=0.4079 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 12:00:35,410 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=4000 window_step=4000 hinge_rate=0.4124 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 12:01:09,668 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=5000 window_step=5000 hinge_rate=0.4216 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 12:01:09,669 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] frozen tuned_max_angle_hinge=1.570796 sweep=5000
+2026-05-02 12:12:16,707 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=prod MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 12:12:16,707 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C32] FirstProductionSweep=25001 EquilibrationSweeps=25000
+2026-05-02 12:15:19,830 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C26] HingeAccept=0.422877 NTailAccept=0.432946 CTailAccept=0.587942
+2026-05-02 12:15:19,831 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C7] N=50 WallTimeSeconds=1012.723
+2026-05-02 12:15:19,832 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C8] BondCheck=PASS MinBondLength=3.800000 MaxBondLength=3.800000 ExpectedL0=3.8000 Tolerance=0.1900
+2026-05-02 12:15:19,832 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C36] NSmallSteps=100 RescaleCount=275 MaxDriftAngstrom=0.000211 LastDriftAngstrom=0.000114 MaxBondStretchObserved=0.000024 LastBondStretchObserved=0.000015 L0=3.8000
+2026-05-02 12:15:19,833 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C39] MaxStretchObserved=0.000024 WarnThreshold=0.020000 RaiseThreshold=0.100000 Outcome=pass
+2026-05-02 12:15:19,833 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C31] CV_R2_Final20=0.0327 CV_Rg2_Final20=0.0119
+2026-05-02 12:15:19,833 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C33] TimeLag_CV=0.000000 TimeLag_Mean=5.0000 TimeLag_Std=0.0000
+2026-05-02 12:15:19,834 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C34] TrajectoryFormat=pdb TrajectoryFrames=100 TrajectoryStride=275 TrajectoryPath=validation_output_with_energy_v2\07_trajectories\phi_0.30\N50\trajectory.pdb TrajectoryUnwrapped=true Exists=true
+2026-05-02 12:15:19,834 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-END] N=50 phi=0.3000 wall_s=1012.72 R2=1621.94 Rg2=266.58
+2026-05-02 12:15:21,202 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-BEGIN] N=100 phi=0.3000 n_chains=100 eq=50000 prod=6250 box=122.30
+2026-05-02 13:50:59,916 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C1] NumberSpace=Active PBC=Enabled Path=PyTorchPath BoxSize=122.2953
+2026-05-02 13:50:59,916 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C2] MCAlgorithm=CudaCMultistepMC
+2026-05-02 13:50:59,917 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C3] EnergyPath=CellList DeltaEMethod=gpu_cell_list
+2026-05-02 13:50:59,917 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C19] CellListActive=true SweepEnginePath=CudaCMultistepMC+CUDAGraph
+2026-05-02 13:50:59,917 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C5] DeviceRequested=gpu DeviceResolved=gpu SilentFallback=false
+2026-05-02 13:50:59,917 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C6] DeltaEPath=FullTensor BatchSize=20 BatchesPerSweep=125 Policy=device=gpu,parallel=True
+2026-05-02 13:50:59,919 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C9] InitMethod=random_saw MinBondLength=3.800000 MaxBondLength=3.800000 MeanBondLength=3.800000
+2026-05-02 13:50:59,919 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C10] N=100 Phi=0.3000 BoxSize=122.295322 Expected=122.295322 Computed=122.295322 RelativeError=0.00e+00
+2026-05-02 13:50:59,920 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=1 OutputHash=5362cdfe09f45eff
+2026-05-02 13:50:59,927 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C12] UnwrapMethod=BondVectorCumsum R2Computed=6.822199e+02 R2Expected=6.822199e+02 RelativeError=0.00e+00
+2026-05-02 13:50:59,927 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C13] R2_Sequential=6.822199e+02 R2_AnchorRelative=6.822199e+02 AbsDifference=0.00e+00
+2026-05-02 13:50:59,927 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C14] NeighborCells=27 PeriodicWrapping=true BoundaryBeadTest=PASS
+2026-05-02 13:50:59,950 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C16] ExcludedVolume=Enabled Sigma=3.80 ContactEnergy=0.00 EVCallCount=5
+2026-05-02 13:50:59,950 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C17] TotalE_CellList=10000000.000000 TotalE_BruteForce=10000000.000000 AbsDifference=0.000000e+00
+2026-05-02 13:50:59,950 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C18] DeltaE_CellList=5000000.000000 DeltaE_Full=5000000.000000 AbsDifference=0.000000e+00
+2026-05-02 13:50:59,951 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C20] AnchorDisplacement_Start=0.000000e+00 AnchorDisplacement_End=0.000000e+00
+2026-05-02 13:51:01,219 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C35] MaxBeadDisplacement=3.990000 L0_Bound=3.80 Sigma=3.80 Violations=0
+2026-05-02 13:56:14,835 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C11] Seed=42 RunID=2 OutputHash=5362cdfe09f45eff
+2026-05-02 13:56:14,885 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C28] PaddedBeads=4 PaddedEnergyContribution=0.000000
+2026-05-02 13:56:14,885 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C29] SelfInteractionPairs=0
+2026-05-02 13:56:14,886 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C30] MidSweepSyncStalls=0 RefillTriggered=true
+2026-05-02 13:56:14,888 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=eq MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 13:58:25,842 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=2000 window_step=2000 hinge_rate=0.3573 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 14:00:37,990 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=4000 window_step=4000 hinge_rate=0.3891 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 14:02:49,598 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=6000 window_step=6000 hinge_rate=0.4055 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 14:05:02,954 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=8000 window_step=8000 hinge_rate=0.4147 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 14:07:12,535 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] sweep=10000 window_step=10000 hinge_rate=0.4190 max_angle: 1.5708 -> 1.5708 (target=0.400)
+2026-05-02 14:07:12,536 [MainThread] INFO rouse_model_python.src.libs.algorithms.angle_autotune - [CHECKLIST-AUTO] frozen tuned_max_angle_hinge=1.570796 sweep=10000
+2026-05-02 14:50:48,443 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C4] Phase=prod MoveTypes=hinge,n_tail,c_tail Count=3
+2026-05-02 14:50:48,443 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C32] FirstProductionSweep=50001 EquilibrationSweeps=50000
+2026-05-02 15:02:43,942 [MainThread] INFO rouse_model_python.src.libs.paths.gpu.cudac_rouse_simulation - [CHECKLIST-C26] HingeAccept=0.425463 NTailAccept=0.423872 CTailAccept=0.443100
+2026-05-02 15:02:43,944 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C7] N=100 WallTimeSeconds=3989.054
+2026-05-02 15:02:43,946 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C8] BondCheck=PASS MinBondLength=3.799951 MaxBondLength=3.800053 ExpectedL0=3.8000 Tolerance=0.1900
+2026-05-02 15:02:43,946 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C36] NSmallSteps=100 RescaleCount=562 MaxDriftAngstrom=0.000340 LastDriftAngstrom=0.000170 MaxBondStretchObserved=0.000040 LastBondStretchObserved=0.000018 L0=3.8000
+2026-05-02 15:02:43,947 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C39] MaxStretchObserved=0.000040 WarnThreshold=0.020000 RaiseThreshold=0.100000 Outcome=pass
+2026-05-02 15:02:43,948 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C31] CV_R2_Final20=0.0145 CV_Rg2_Final20=0.0075
+2026-05-02 15:02:43,948 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C33] TimeLag_CV=0.000000 TimeLag_Mean=5.0000 TimeLag_Std=0.0000
+2026-05-02 15:02:43,948 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-C34] TrajectoryFormat=pdb TrajectoryFrames=101 TrajectoryStride=562 TrajectoryPath=validation_output_with_energy_v2\07_trajectories\phi_0.30\N100\trajectory.pdb TrajectoryUnwrapped=true Exists=true
+2026-05-02 15:02:43,949 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-CELL-END] N=100 phi=0.3000 wall_s=3989.05 R2=4039.62 Rg2=608.02
+2026-05-02 15:02:52,652 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-T1-T7] Wrote validation_output_with_energy_v2\00_t1_t7_verdicts.json
+2026-05-02 15:02:52,652 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-T1_R2_vs_N] PASS measured=1.1997 target=1.1800
+2026-05-02 15:02:52,652 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-T2_Rg2_vs_N] PASS measured=1.2437 target=1.1800
+2026-05-02 15:02:52,652 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-T3_R2_over_Rg2_at_N100] PASS measured=6.1871 target=6.2500
+2026-05-02 15:02:52,652 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-T4_gCM_long_time_alpha] FAIL measured=0.8494 target=1.0000
+2026-05-02 15:02:52,652 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-T5_g1_short_time_alpha] PASS measured=0.4934 target=0.5000
+2026-05-02 15:02:52,653 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-T6_tauR_vs_N] FAIL measured=1.1633 target=2.1800
+2026-05-02 15:02:52,653 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-T7_D_vs_N] PASS measured=-1.0283 target=-1.0000
+2026-05-02 15:02:52,654 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T1] N=25 MeanR2=952.0626 StdR2=525.0246 FittedExponent=1.1695 RegressionR2=0.9984 ExponentInRange=true
+2026-05-02 15:02:52,654 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T2] N=25 MeanRg2=139.8632 StdRg2=45.6614 FittedExponent=1.2098 RegressionR2=0.9987 ExponentInRange=true
+2026-05-02 15:02:52,655 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T3] N=25 R2=952.0626 Rg2=139.8632 Ratio=6.8071 RatioInRange=true
+2026-05-02 15:02:52,655 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T1] N=50 MeanR2=2263.6928 StdR2=1295.1613 FittedExponent=1.1695 RegressionR2=0.9984 ExponentInRange=true
+2026-05-02 15:02:52,655 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T2] N=50 MeanRg2=340.5919 StdRg2=125.3851 FittedExponent=1.2098 RegressionR2=0.9987 ExponentInRange=true
+2026-05-02 15:02:52,655 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T3] N=50 R2=2263.6928 Rg2=340.5919 Ratio=6.6464 RatioInRange=true
+2026-05-02 15:02:52,655 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T1] N=100 MeanR2=4816.7249 StdR2=3079.9822 FittedExponent=1.1695 RegressionR2=0.9984 ExponentInRange=true
+2026-05-02 15:02:52,655 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T2] N=100 MeanRg2=748.3452 StdRg2=287.5858 FittedExponent=1.2098 RegressionR2=0.9987 ExponentInRange=true
+2026-05-02 15:02:52,655 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T3] N=100 R2=4816.7249 Rg2=748.3452 Ratio=6.4365 RatioInRange=true
+2026-05-02 15:02:52,656 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T4] N=25 FittedExponent=0.7451 RegressionR2=0.9972 ExponentInRange=false
+2026-05-02 15:02:52,656 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T4] N=50 FittedExponent=0.8777 RegressionR2=0.9964 ExponentInRange=false
+2026-05-02 15:02:52,657 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T4] N=100 FittedExponent=0.9420 RegressionR2=0.9984 ExponentInRange=false
+2026-05-02 15:02:52,657 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T5] N=25 FittedExponent=0.5448 RegressionR2=0.9985 ShortTimeRegime=true ExponentInRange=false
+2026-05-02 15:02:52,658 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T5] N=50 FittedExponent=0.4517 RegressionR2=0.9948 ShortTimeRegime=true ExponentInRange=false
+2026-05-02 15:02:52,658 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T5] N=100 FittedExponent=0.4790 RegressionR2=0.9963 ShortTimeRegime=true ExponentInRange=true
+2026-05-02 15:02:52,659 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T6] N=25 TauR=1245.0000 FittedExponent=1.1633 RegressionR2=0.9937 ExponentInRange=false
+2026-05-02 15:02:52,659 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T6] N=50 TauR=2495.0000 FittedExponent=1.1633 RegressionR2=0.9937 ExponentInRange=false
+2026-05-02 15:02:52,659 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T6] N=100 TauR=6245.0000 FittedExponent=1.1633 RegressionR2=0.9937 ExponentInRange=false
+2026-05-02 15:02:52,660 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T7] N=25 D=1.362602e-02 FittedExponent=-1.0283 RegressionR2=0.9984 ExponentInRange=true
+2026-05-02 15:02:52,660 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T7] N=50 D=7.019559e-03 FittedExponent=-1.0283 RegressionR2=0.9984 ExponentInRange=true
+2026-05-02 15:02:52,660 [MainThread] INFO rouse_model_python.src.libs.io.checklist_diagnostics - [CHECKLIST-T7] N=100 D=3.275347e-03 FittedExponent=-1.0283 RegressionR2=0.9984 ExponentInRange=true
+2026-05-02 15:02:52,660 [MainThread] INFO rouse_model_python.src.apps.validation - [VALIDATION-END] all_pass=False

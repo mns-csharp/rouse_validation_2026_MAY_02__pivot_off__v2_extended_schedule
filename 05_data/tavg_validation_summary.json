@@ -1,0 +1,447 @@
+{
+  "per_phi": {
+    "0.03": {
+      "R2_exponent": {
+        "measured": 1.2,
+        "theory": 1.18,
+        "r2_fit": 0.9987,
+        "pass": true
+      },
+      "Rg2_exponent": {
+        "measured": 1.244,
+        "theory": 1.18,
+        "r2_fit": 0.9997,
+        "pass": true
+      },
+      "R2_Rg2_ratio": {
+        "measured": 6.435,
+        "theory": 6.25,
+        "pass": true
+      },
+      "D_exponent": {
+        "measured": -1.028,
+        "theory": -1.0,
+        "r2_fit": 0.9984,
+        "pass": true
+      },
+      "tau_R_exponent": {
+        "measured": 1.163,
+        "theory": 2.18,
+        "r2_fit": 0.9937,
+        "pass": false
+      },
+      "g_CM_exponent": {
+        "measured": 0.849,
+        "theory": 1.0,
+        "pass": false
+      },
+      "g1_exponent": {
+        "measured": 0.493,
+        "theory": 0.5,
+        "pass": true
+      },
+      "_detail": {
+        "N_values": [
+          25,
+          50,
+          100
+        ],
+        "mean_R2": {
+          "25": 878.9432,
+          "50": 2128.6517,
+          "100": 4637.3119
+        },
+        "mean_Rg2": {
+          "25": 133.6548,
+          "50": 325.3613,
+          "100": 749.5148
+        },
+        "R2_over_Rg2_per_N": {
+          "25": 6.5762,
+          "50": 6.5424,
+          "100": 6.1871
+        },
+        "diffusion_coefficients": {
+          "25": 0.013626021156645317,
+          "50": 0.007019559223754811,
+          "100": 0.0032753470181708104
+        },
+        "relaxation_times": {
+          "25": 2490.0,
+          "50": 4990.0,
+          "100": 12490.0
+        },
+        "g1_exponents_per_N": {
+          "25": 0.5462,
+          "50": 0.4547,
+          "100": 0.4793
+        },
+        "gcm_exponents_per_N": {
+          "25": 0.7162,
+          "50": 0.9045,
+          "100": 0.9275
+        }
+      }
+    },
+    "0.1": {
+      "R2_exponent": {
+        "measured": 1.071,
+        "theory": 1.18,
+        "r2_fit": 0.9949,
+        "pass": false
+      },
+      "Rg2_exponent": {
+        "measured": 1.133,
+        "theory": 1.18,
+        "r2_fit": 0.9982,
+        "pass": true
+      },
+      "R2_Rg2_ratio": {
+        "measured": 6.237,
+        "theory": 6.25,
+        "pass": true
+      },
+      "D_exponent": {
+        "measured": -1.187,
+        "theory": -1.0,
+        "r2_fit": 0.9645,
+        "pass": false
+      },
+      "tau_R_exponent": {
+        "measured": 1.163,
+        "theory": 2.18,
+        "r2_fit": 0.9937,
+        "pass": false
+      },
+      "g_CM_exponent": {
+        "measured": 0.852,
+        "theory": 1.0,
+        "pass": false
+      },
+      "g1_exponent": {
+        "measured": 0.457,
+        "theory": 0.5,
+        "pass": true
+      },
+      "_detail": {
+        "N_values": [
+          25,
+          50,
+          100
+        ],
+        "mean_R2": {
+          "25": 828.1474,
+          "50": 1907.2382,
+          "100": 3655.6778
+        },
+        "mean_Rg2": {
+          "25": 128.7379,
+          "50": 299.1704,
+          "100": 619.1549
+        },
+        "R2_over_Rg2_per_N": {
+          "25": 6.4328,
+          "50": 6.3751,
+          "100": 5.9043
+        },
+        "diffusion_coefficients": {
+          "25": 0.011669061670914296,
+          "50": 0.003898237610800853,
+          "100": 0.002249897472369933
+        },
+        "relaxation_times": {
+          "25": 2490.0,
+          "50": 4990.0,
+          "100": 12490.0
+        },
+        "g1_exponents_per_N": {
+          "25": 0.5112,
+          "50": 0.4069,
+          "100": 0.4524
+        },
+        "gcm_exponents_per_N": {
+          "25": 0.818,
+          "50": 0.7564,
+          "100": 0.9825
+        }
+      }
+    },
+    "0.2": {
+      "R2_exponent": {
+        "measured": 1.067,
+        "theory": 1.18,
+        "r2_fit": 0.9897,
+        "pass": false
+      },
+      "Rg2_exponent": {
+        "measured": 1.122,
+        "theory": 1.18,
+        "r2_fit": 0.9972,
+        "pass": true
+      },
+      "R2_Rg2_ratio": {
+        "measured": 6.354,
+        "theory": 6.25,
+        "pass": true
+      },
+      "D_exponent": {
+        "measured": -1.645,
+        "theory": -1.0,
+        "r2_fit": 1.0,
+        "pass": false
+      },
+      "tau_R_exponent": {
+        "measured": 1.163,
+        "theory": 2.18,
+        "r2_fit": 0.9937,
+        "pass": false
+      },
+      "g_CM_exponent": {
+        "measured": 0.745,
+        "theory": 1.0,
+        "pass": false
+      },
+      "g1_exponent": {
+        "measured": 0.422,
+        "theory": 0.5,
+        "pass": true
+      },
+      "_detail": {
+        "N_values": [
+          25,
+          50,
+          100
+        ],
+        "mean_R2": {
+          "25": 889.9989,
+          "50": 1635.9822,
+          "100": 3903.9975
+        },
+        "mean_Rg2": {
+          "25": 132.2285,
+          "50": 268.1159,
+          "100": 626.654
+        },
+        "R2_over_Rg2_per_N": {
+          "25": 6.7308,
+          "50": 6.1018,
+          "100": 6.2299
+        },
+        "diffusion_coefficients": {
+          "25": 0.005675157438802979,
+          "50": 0.0018364547230862573,
+          "100": 0.0005804273619533774
+        },
+        "relaxation_times": {
+          "25": 2490.0,
+          "50": 4990.0,
+          "100": 12490.0
+        },
+        "g1_exponents_per_N": {
+          "25": 0.4975,
+          "50": 0.3723,
+          "100": 0.3961
+        },
+        "gcm_exponents_per_N": {
+          "25": 0.8052,
+          "50": 0.7837,
+          "100": 0.6449
+        }
+      }
+    },
+    "0.3": {
+      "R2_exponent": {
+        "measured": 1.197,
+        "theory": 1.18,
+        "r2_fit": 0.9994,
+        "pass": true
+      },
+      "Rg2_exponent": {
+        "measured": 1.166,
+        "theory": 1.18,
+        "r2_fit": 0.9999,
+        "pass": true
+      },
+      "R2_Rg2_ratio": {
+        "measured": 6.298,
+        "theory": 6.25,
+        "pass": true
+      },
+      "D_exponent": {
+        "measured": -1.503,
+        "theory": -1.0,
+        "r2_fit": 0.967,
+        "pass": false
+      },
+      "tau_R_exponent": {
+        "measured": 1.163,
+        "theory": 2.18,
+        "r2_fit": 0.9937,
+        "pass": false
+      },
+      "g_CM_exponent": {
+        "measured": 0.753,
+        "theory": 1.0,
+        "pass": false
+      },
+      "g1_exponent": {
+        "measured": 0.389,
+        "theory": 0.5,
+        "pass": true
+      },
+      "_detail": {
+        "N_values": [
+          25,
+          50,
+          100
+        ],
+        "mean_R2": {
+          "25": 749.5282,
+          "50": 1661.2232,
+          "100": 3942.2582
+        },
+        "mean_Rg2": {
+          "25": 119.9129,
+          "50": 271.8403,
+          "100": 603.6317
+        },
+        "R2_over_Rg2_per_N": {
+          "25": 6.2506,
+          "50": 6.111,
+          "100": 6.5309
+        },
+        "diffusion_coefficients": {
+          "25": 0.0019354153094053514,
+          "50": 0.0004892008281538305,
+          "100": 0.00024084509796527863
+        },
+        "relaxation_times": {
+          "25": 2490.0,
+          "50": 4990.0,
+          "100": 12490.0
+        },
+        "g1_exponents_per_N": {
+          "25": 0.4719,
+          "50": 0.3498,
+          "100": 0.3442
+        },
+        "gcm_exponents_per_N": {
+          "25": 0.7532,
+          "50": 0.6357,
+          "100": 0.8708
+        }
+      }
+    }
+  },
+  "phi_star": {
+    "R2_exponent": "0.10",
+    "Rg2_exponent": "never (passes at all phi)",
+    "R2_Rg2_ratio": "never (passes at all phi)",
+    "D_exponent": "0.10",
+    "tau_R_exponent": "0.03",
+    "g_CM_exponent": "0.03",
+    "g1_exponent": "never (passes at all phi)"
+  },
+  "dilute_limit": {
+    "R2_exponent": {
+      "measured": 1.2,
+      "theory": 1.18,
+      "r2_fit": 0.9987,
+      "pass": true
+    },
+    "Rg2_exponent": {
+      "measured": 1.244,
+      "theory": 1.18,
+      "r2_fit": 0.9997,
+      "pass": true
+    },
+    "R2_Rg2_ratio": {
+      "measured": 6.435,
+      "theory": 6.25,
+      "pass": true
+    },
+    "D_exponent": {
+      "measured": -1.028,
+      "theory": -1.0,
+      "r2_fit": 0.9984,
+      "pass": true
+    },
+    "tau_R_exponent": {
+      "measured": 1.163,
+      "theory": 2.18,
+      "r2_fit": 0.9937,
+      "pass": false
+    },
+    "g_CM_exponent": {
+      "measured": 0.849,
+      "theory": 1.0,
+      "pass": false
+    },
+    "g1_exponent": {
+      "measured": 0.493,
+      "theory": 0.5,
+      "pass": true
+    },
+    "_detail": {
+      "N_values": [
+        25,
+        50,
+        100
+      ],
+      "mean_R2": {
+        "25": 878.9432,
+        "50": 2128.6517,
+        "100": 4637.3119
+      },
+      "mean_Rg2": {
+        "25": 133.6548,
+        "50": 325.3613,
+        "100": 749.5148
+      },
+      "R2_over_Rg2_per_N": {
+        "25": 6.5762,
+        "50": 6.5424,
+        "100": 6.1871
+      },
+      "diffusion_coefficients": {
+        "25": 0.013626021156645317,
+        "50": 0.007019559223754811,
+        "100": 0.0032753470181708104
+      },
+      "relaxation_times": {
+        "25": 2490.0,
+        "50": 4990.0,
+        "100": 12490.0
+      },
+      "g1_exponents_per_N": {
+        "25": 0.5462,
+        "50": 0.4547,
+        "100": 0.4793
+      },
+      "gcm_exponents_per_N": {
+        "25": 0.7162,
+        "50": 0.9045,
+        "100": 0.9275
+      }
+    }
+  },
+  "rouse_1953_properties": {
+    "1.1_gaussian_submolecule": "NOT MET -- surpass-alpha uses athermal excluded volume (E=1e6), producing SAW chains, not Gaussian submolecules.",
+    "1.2_R2_scaling": "MET -- <R2> ~ N^(2nu) with 2nu = 1.200 (R2_fit = 0.9987)",
+    "1.3_Rg2_scaling": "MET -- <Rg2> ~ N^(2nu) with 2nu = 1.244 (R2_fit = 0.9997)",
+    "1.4_ratio_R2_Rg2": "MET -- Mean R2/Rg2 = 6.435 (SAW expected ~6.25)",
+    "1.5_config_probability": "NOT MET -- End-to-end distribution is non-Gaussian for SAW chains with excluded volume.",
+    "2.1_eigenvalues": "NOT MET -- Rouse eigenvalues require harmonic springs; surpass-alpha uses rigid bonds + MC moves.",
+    "2.2_relaxation_times": "MET -- tau_R extracted from g_R(t) = 1/e crossing for all N.",
+    "2.3_long_wavelength_approx": "NOT MET -- Long-wavelength approx tau_p ~ N^2/p^2 not directly measurable from MC.",
+    "2.4_tau_R_scaling": "NOT MET -- tau_R ~ N^1.163 (theory: 2.18)",
+    "2.5_steady_flow_viscosity": "NOT MET -- Viscosity requires stress tensor; not available from equilibrium MC.",
+    "2.6_complex_viscosity": "NOT MET -- Complex viscosity requires frequency-domain analysis; not available from MC.",
+    "2.7_shear_modulus": "NOT MET -- Shear modulus requires stress autocorrelation; not computed.",
+    "2.8_high_freq_approx": "NOT MET -- High-frequency behavior not accessible from MC simulations.",
+    "2.9_diffusion_coeff": "MET -- D ~ N^-1.028 (theory: -1.00)",
+    "2.10_g_CM": "NOT MET -- g_CM(t) ~ t^0.849 (theory: 1.00)",
+    "2.11_g1_middle_segment": "MET -- g1 short-time exponent = 0.493 (theory: 0.50)",
+    "2.12_end_to_end_autocorr": "MET -- g_R(t) decays from 1 to 0; tau_R extracted for all N."
+  }
+}

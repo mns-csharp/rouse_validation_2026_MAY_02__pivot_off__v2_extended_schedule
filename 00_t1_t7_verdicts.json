@@ -1,0 +1,62 @@
+{
+  "dilute_phi": 0.03,
+  "N_values": [
+    25,
+    50,
+    100
+  ],
+  "T1_R2_vs_N": {
+    "measured": 1.1997,
+    "target": 1.18,
+    "tolerance": 0.15,
+    "r2_fit": 0.9987,
+    "r2_min": 0.95,
+    "pass": true
+  },
+  "T2_Rg2_vs_N": {
+    "measured": 1.2437,
+    "target": 1.18,
+    "tolerance": 0.15,
+    "r2_fit": 0.9997,
+    "r2_min": 0.95,
+    "pass": true
+  },
+  "T3_R2_over_Rg2_at_N100": {
+    "measured": 6.1871,
+    "target": 6.25,
+    "tolerance": 0.6,
+    "pass": true
+  },
+  "T4_gCM_long_time_alpha": {
+    "measured": 0.8494,
+    "target": 1.0,
+    "tolerance": 0.15,
+    "r2_fit": 1.0,
+    "r2_min": 0.95,
+    "pass": false
+  },
+  "T5_g1_short_time_alpha": {
+    "measured": 0.4934,
+    "target": 0.5,
+    "tolerance": 0.15,
+    "r2_fit": 1.0,
+    "r2_min": 0.9,
+    "pass": true
+  },
+  "T6_tauR_vs_N": {
+    "measured": 1.1633,
+    "target": 2.18,
+    "tolerance": 0.3,
+    "r2_fit": 0.9937,
+    "r2_min": 0.95,
+    "pass": false
+  },
+  "T7_D_vs_N": {
+    "measured": -1.0283,
+    "target": -1.0,
+    "tolerance": 0.2,
+    "r2_fit": 0.9984,
+    "r2_min": 0.95,
+    "pass": true
+  }
+}
